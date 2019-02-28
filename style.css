@@ -1,0 +1,81 @@
+
+
+.navbar{
+    display: inline-block;
+    width: 90%;
+    justify-content: flex-start;
+}
+
+
+.navbar-toggler{
+height: 100%
+}
+
+body{
+    background-repeat: no-repeat
+}
+
+.card{
+    position: relative;
+    margin-top: 17%;
+    width:80%;
+    border: 0,0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-img-top{
+    width: 100%
+
+
+
+}
+.centered{
+    position: absolute;
+}
+
+.contrata{
+    border: 1px;
+
+}
+
+.coach{
+    color: grey;
+}
+
+.btn-entrenar, .alltrainings{
+    color:black;
+    background-color: white;
+    border-color: red;
+
+}
+
+.centered{
+    position: absolute;
+    z-index: 100%;
+    color: white
+}
+.img1{
+    position: absolute;
+}
+
+.newrow{
+    position: relative;
+}
+
+.footer2{
+    position: absolute;
+    padding-top: 2%;
+    color: white;
+
+}
+
+.bgfooter{
+    position: absolute;
+    margin-right: 0;
+
+}
+
+
+
+
+
