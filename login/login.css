@@ -1,0 +1,52 @@
+
+.footer{
+    position: absolute;
+    right:0;
+    left:0;
+    bottom:0;
+    height: 25%;
+    max-width:100%;
+    min-width: 100px;
+    max-height: 100%;
+    min-height: 100px;
+
+}
+
+.footer2{
+
+    padding-top: 2%;
+   
+    color: white;
+    padding-left: 18%;
+    padding-right: 18%;
+    bottom: 0;
+    max-width:4000px;
+    min-width: 100px;
+
+    height:30%
+}
+
+.bgfooter{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    max-width:4000px;
+    min-width: 100px;
+    max-height: 4000px;
+    min-height: 100px;
+}
+
+.card{
+  
+    margin-left:35%;
+    margin-right:35%;
+    margin-top: 5%
+}
+
+.card-title{
+    color:red;
+}
+
+.card-body{
+    height:390px;
+}
