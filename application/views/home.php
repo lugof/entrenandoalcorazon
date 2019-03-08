@@ -200,11 +200,11 @@
     <!-- Entrenamientos components -->
    <div class=" justify-content-start mt-5 mb-5">
       <div class="row  ">
-        <div class="col-md-4"></div>
-        <div class=" text-center Entrenamientos text-danger">  
+     
+        <div class=" text-center Entrenamientos text-danger col-md-12 col-sm-12 col-12">  
           <div class="titulos_corazon text-center">Entrenamientos</div>
         </div>
-        <div class="col-md-4"></div>
+         
       </div>
 
       <div class="row mt-1 justify-content-start mr-0 ml-0">
