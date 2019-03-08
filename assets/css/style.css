@@ -75,7 +75,98 @@ table {
 
     padding-left: 0px !important;
 }
+
+/* contacto page */
+.opt{
+    color:#988C89
+}
+.row-contacto{
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-bottom: 5%;
+    margin-top: 5%
+}
+
+/* Infored-infowhite */
+
+.country-bold{
+    
+    font-family: 'SourceSansPro-Bold';
+}
+
+.titulo-infored{
+    font-family: 'SourceSansPro-Bold';
+    font-size: 35px;
+    color: #FFF;
+    text-align: left;
+}
+.infored-content{
+    max-width: 90%;
+    padding-left: 10%;
+    font-family: 'SourceSansPro';
+    font-size: 15px;
+    padding-top:5%
+    
+    }
+.infored-contacto{
+ 
+
+        width: 522px;
+        height: 500px;
+        padding: 4% 4%;
+        background-color: #FB0D1B;
+        font-family: 'SourceSansPro-Regular';
+        font-size: 15px;
+        color: #FFF;
+    
+
+}
+
+.infowhite{
+    background-color: white;
+    padding-left:8%;
+    padding-right: 8%;
+    padding-top:3%;
+    height: 500px;
+}
+
+body{
+    background-color: #edf1f4;
+}
+
+.titulo-contacto-form{
+    color: red;
+    font-family: 'SourceSansPro-Bold';
+    font-size: 35px;
+    text-align: left;
+}
+
+.infowhite-text{
+    color:#898989;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15px;
+    
+}
+
+
+
+.card-infowhite{
+    margin-left:10% !important;
+    margin-right: 10% !important;
+    padding-top:5%
+}
+
+
+
+
+
 /* Navbar */
+
+.mynavbar{
+    margin-bottom:1%
+}
+
+
 
 .navbar{
     display: inline-block;
@@ -180,9 +271,13 @@ body{
 }
 
 .infored-title{
-max-width: 70%;
+    left:5%;
+    right:5%;
+    max-width:85%
 
 }
+
+
 
 .titulos_corazon_blanco{
     font-family: 'SourceSansPro-Bold';
@@ -391,9 +486,7 @@ max-width: 70%;
 }
 
 
-.form-control{
-    width:85%;
-}
+
 
 img{
     border:none;
@@ -518,11 +611,7 @@ top:98%;
 @media  screen and (max-width: 1360px) {
    
   
-.form-control{
-    width:70%;
-    height: 70%;
-    font-size: 70%;
-}
+
 
 
 .back-fwd{
@@ -555,11 +644,7 @@ top:98%;
 
   }
 
-.form-control{
-    width:60%;
-    height: 45%;
-    font-size: 60%;
-}
+
 p, label{
     font-size: 70%;
 }

@@ -297,7 +297,7 @@
 
 <!-- Blog del corazon -->
 
-<div class=" row mt-5">
+      <div class=" row mt-5">
         <div class="col-md-4"></div>
         <div class="col-md-4 Entrenamientos text-danger text-center">  
        

@@ -14,7 +14,11 @@ class Home extends CI_Controller {
 		
 	}
 
-
+	public function contacto(){
+		$this->load->view('header');
+		$this->load->view('contacto');
+		$this->load->view('footer');
+	}
 
 	public function index()
 	{
