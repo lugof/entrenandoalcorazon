@@ -63,9 +63,10 @@
             
                 </div>
                 <div class="col-md-1 col-sm-1 col-1 col-lg-1"> </div>
-
-
 </div>
+   <!-- Navbar Ends -->
+
+
             
 <div class="row row-contacto">
     <div class=" col-md-6 col-sm-12 col-12 col-lg-6">
@@ -148,33 +149,25 @@
     <div class=" col-md-6 col-sm-12 col-12 col-lg-6">
     <div class="infowhite card border-0">
     <div class=" card-text card-infowhite ">
-        <div class="titulo-contacto-form">Formulario</div> <br> <br>
+                  <div class="titulo-contacto-form">Formulario</div> <br> <br>
        <p class="infowhite-text">  Envianos un mensaje y nos pondremos en contacto contigo con la mayor brevedad posible.
     
-       <div class="input-group mt-4 mb-3">
-       <input type="text" class="form-control form-contacto" placeholder="Tu Nombre" aria-label="Recipient's username" aria-describedby="basic-addon2">
-      </div>
-      <div class="input-group mb-3">
-       <input type="text" class="form-control form-contacto" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2">
-      </div>
-      <div class="input-group mb-3">
-       <input type="text" class="form-control form-contacto" placeholder="Asunto" aria-label="Recipient's username" aria-describedby="basic-addon2">
-      </div>
+                  <div class="input-group mt-4 mb-3">
+                  <input type="text" class="form-control form-contacto" placeholder="Tu Nombre" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+                  <div class="input-group mb-3">
+                  <input type="text" class="form-control form-contacto" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+                  <div class="input-group mb-3">
+                  <input type="text" class="form-control form-contacto" placeholder="Asunto" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
 
-      <div class="form-group">
-   
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje"  rows="3"></textarea>
-  </div>
+              <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje"  rows="3"></textarea>
+             </div>
     
+    </div>
+    </div>
+    </div>
 
-
-
-
-
-
-
-</div>
-</div>
-
-</div>
 </div>

@@ -42,7 +42,7 @@
     Regístrate para recibir noticias e información de los nuevos entrenamientos.<br><br>
 
 
-    <input  class="entrenando_inp " type="text" name=""><br><br>
+    <input  class="entrenando_inp " placeholder="  Correo electronico"  type="text" name=""><br><br>
     <button class="btn entrenando_btn" type="input" href="#">
       SUSCRIBIR
 </button>

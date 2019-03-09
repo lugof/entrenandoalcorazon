@@ -81,10 +81,30 @@ table {
     color:#988C89
 }
 .row-contacto{
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 22%;
+    margin-right: 22%;
     margin-bottom: 5%;
     margin-top: 5%
+}
+.form-contacto{
+    font-family: 'SourceSansPro-Regular';
+    color:#898989
+}
+
+.text-contrasena-contacto{
+    font-family: 'SourceSansPro-Regular';
+    color:#898989;
+    font-size: 13px
+
+}
+.text-nuevo-contacto{
+    font-family: 'SourceSansPro-Regular';
+    color:#898989;
+    font-size: 15px
+}
+.contacto-button{
+    font-family: 'SourceSansPro-Bold';
+    font-size: 13px
 }
 
 /* Infored-infowhite */
@@ -623,14 +643,7 @@ top:98%;
 
 
 
-@media  screen and (max-width: 1360px) {
-   
-  
-.back-fwd{
-    top:80%
-}
 
-}
 
 .footertext, .contacto, .col-newsletter{
     height:80%;
@@ -708,6 +721,26 @@ margin-bottom: 100px;
     height:390px;
 }
 
+.infowhite-login{
+    background-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    height: 450px;
+    margin-bottom: 8%;
+    margin-left:12%;
+    margin-right:12%;
+}
+
+.btn-login{
+    background-color:#fb0d1b;
+    color: white
+}
+
+.row-login{
+    margin-top:10%
+}
+
 
 /*VIDEOS*/
 
@@ -720,6 +753,21 @@ margin-bottom: 100px;
 
 
                                             /* MEDIA QUERIES */
+
+@media  screen and (max-width: 1360px) {
+   
+.back-fwd{
+top:80%
+}
+.infowhite-login{
+margin-left:5%;
+margin-right:5%
+}
+                                                
+                                                
+}
+
+
 
 @media only screen and (max-width: 1025px) {
 .back-fwd{
