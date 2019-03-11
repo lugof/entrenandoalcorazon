@@ -71,44 +71,58 @@
 <div class="row row-login">
 <div class="col-md-3 col-sm-2 col-1 col-lg-4"></div>
 <div class=" col-md-6 col-sm-8 col-10 col-lg-4">
-    <div class="infowhite-login  border-0">
-    <div class=" card-text card-infowhite ">
+    <div class="infowhite-signup  border-0">
+    <div class=" card-text card-infowhite-signup ">
 
     
-                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Iniciar sesion</div> <br> <br>
+                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Crear Cuenta</div> <br> <br>
 
     
                   <div class="input-group mt-2 mb-3">
+                  <input type="text" class="form-control form-contacto" placeholder="Tu nombre" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+                  <div class="input-group mb-3">
                   <input type="text" class="form-control form-contacto" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                   <div class="input-group mb-3">
                   <input type="text" class="form-control form-contacto" placeholder="Contrasena" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
+
+
+
                         <div class="row mb-3 mt-2">
                           
-                          <a href="#" class="col-sm-12 text-center text-contrasena-contacto"> <u>Olvidaste tu contrasena? </u></a>
+                          <a href="#" class="col-sm-12 text-center text-contrasena-signup"> La contrasena debe tener al menos seis caracteres</a>
                          
                         </div>
+                        <div class="input-group mb-3">
+                  <input type="text" class="form-control form-contacto" placeholder="Vuelve a escribir la contrasena" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+
+                  <a href="#" class="btn btn-login signup-button rounded-0 col-sm-12">Crear tu cuenta</a>
 
 
-                  <a href="#" class="btn btn-login contacto-button rounded-0 mb-2 mt-2 col-sm-12" onclick="submit_login();">Iniciar sesión</a>
+
+
+                 
+
+                  <div class="row mb-3 mt-2">
+             
+                  <a href="#" class="col-sm-12 text-center text-nuevo-contacto"> Al crear una cuenta aceptas el <u>Aviso de privacidad</u> de Entrenando al corazon</a>
+            
+                </div>
+               
+                
+                  
+               
+                
+                </div>
+                <a href="#" class="btn iniciar-signup-button rounded-0 mb-0 mt-2 col-sm-12 text-center" onclick="submit_login();">Ya tienes una cuenta?  <u>Iniciar sesión</u></a>
                   <?php if(isset($datos_incorrectos)):?>
 
                   <div style="text-align: center; color: #FB0D1B; font-family: 'SourceSansPro-Bold'; font-size: 20px; margin-top: 20px; width: 100%;" ><?= $datos_incorrectos ?></div>
 
                   <?php endif; ?>
-
-                  <div class="row mb-3 mt-2">
-             
-                  <a href="#" class="col-sm-12 text-center text-nuevo-contacto"> <u> Eres nuevo? </u></a>
-            
-                </div>
-             
-                
-                  <a href="#" class="btn btn-login contacto-button rounded-0 col-sm-12">Crear tu cuenta</a>
-               
-                
-                </div>
                 </div>
                 
                 
@@ -120,7 +134,10 @@
 
 
 
-<!-- Card login Ends -->
+
+
+<!-- Card login Ends
+
 
 
 

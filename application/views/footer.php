@@ -1,3 +1,5 @@
+
+ 
  <!-- footer -->
  <div class="row footer">
   <div class="col-sm-12 redes_sociales">
@@ -66,8 +68,8 @@
 <script src="<?= base_url("assets/js/script.js") ?>"></script>
 
 
-
-
 </body>
+
+
 
 </html>
