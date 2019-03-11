@@ -76,6 +76,26 @@ table {
     padding-left: 0px !important;
 }
 
+
+
+
+                        /* Password recovery page */
+.password-text{
+    font-family: 'SourceSansPro';
+    font-size: 15px;
+    color:#898989
+}
+.text-contrasena-recovery{
+    font-family: 'SourceSansPro-Bold';
+    color: #898989;
+    font-size: 13px;
+}
+
+
+
+
+
+
          /* Sign Up Page */
 
          .infowhite-signup{
