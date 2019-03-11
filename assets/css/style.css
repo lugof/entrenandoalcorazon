@@ -76,6 +76,26 @@ table {
     padding-left: 0px !important;
 }
 
+/* User space view */
+.user-greeting{
+    color:#898989;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 19px
+}
+
+
+ .card-user, .user-opt{
+    color:#898989;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15px
+}
+
+.user-opt:hover{
+    color: #fb0d1b
+}
+
+
+
 
 
 

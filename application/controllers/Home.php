@@ -20,6 +20,8 @@ class Home extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+
+
 	public function contacto(){
 		$this->load->view('header');
 		$this->load->view('contacto');
@@ -30,6 +32,11 @@ class Home extends CI_Controller {
 		$this->load->view("header");
 		$this->load->view("signup");
 		$this->load->view("footer");
+	}
+	public function espacio(){
+		$this->load->view('header');
+		$this->load->view('espacio');
+		$this->load->view('footer');
 	}
 
 
