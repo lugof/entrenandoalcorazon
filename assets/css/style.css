@@ -363,7 +363,7 @@ table {
 .infored-content{
     max-width: 90%;
     padding-left: 10%;
-    font-family: 'SourceSansPro';
+    font-family: 'SourceSansPro-Regular';
     font-size: 15px;
     padding-top:5%
     
@@ -811,12 +811,14 @@ img{
     bottom:10%;
     width: 95%;
     max-height: 90%;
+    font-size:15px;
+    font-family: "SourceSansPro-Regular";
 
 }
 
 .titulo-descarga{
     font-size:36px;
-    font-family: "SourceSansPro-bold";
+    font-family: "SourceSansPro-Bold";
     padding-top: 7%;
     margin-top: 7%;
     color:white;
@@ -869,7 +871,7 @@ min-height:350px
 }
 
 .titulos_2cards{
-    font-family: 'SourceSansPro';
+    font-family: 'SourceSansPro-Regular';
     font-size: 15px;
     color: white;
     padding-top: 5%;
