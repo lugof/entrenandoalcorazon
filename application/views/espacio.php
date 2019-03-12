@@ -1,3 +1,5 @@
+<div class="smallbody">
+
 <!-- 4 options Menu -->
 <div class="row">
         <div class="col-md-8"></div>
@@ -76,26 +78,23 @@
 
     <div class="card fullcard-user col-2" >
   
-  <div class="card-body card-user text-center"> 
-      <div class="user-greeting">Hola, Mayra</div>
-  <img src="<?= base_url("assets/img/Asset 2.png") ?>" class="card-img-top" alt="..." style= 'width: 5rem;'>
+  <div class="card-body card-user">
+      <div class="user-greeting mb-3">Hola, Mayra</div>
+  <img src="<?= base_url("assets/img/Asset 2.png") ?>" class="card-img-top user-icon" alt="..." style= 'width: 5rem;'>
   
     
-
-  <div><a href="#" class="user-opt">Mi espacio</a></div>
-  <div><a href="#" class="user-opt">Mis datos</a></div>
-  <div><a href="#" class="user-opt">Mis entrenamientos</a></div>
-  <div><a href="#" class="user-opt mb-3">Mis notas</a></div>
+    <ul>
+  <a href="#" class="user-opt"><li>Mi espacio</li></a>
+  <a href="#" class="user-opt"><li>Mis datos</li></a>
+  <a href="#" class="user-opt"><li>Mis entrenamientos</li></a>
+  <a href="#" class="user-opt mb-3" id="user-opt-notes" ><li>Mis notas</li></a>
   <hr>
-  <div> <a href="#" class="user-opt " > Cerrar sesion</a></div>
-  </div>
-
+  <a href="#" class="user-opt "  id="user-opt-logout"> <li>Cerrar sesion</li></a>
+</ul>
 
 
 </div>
-
-
-
+</div>
 
 
 
@@ -119,7 +118,13 @@
             <div><img src="<?= base_url("assets/img/cursos-4.png") ?>" class="image-carousel " alt="carousel2" ></div>
 
         </div>
-
+        <div class="paginator-center text-color text-center">
+    
+    <ul>
+        <li class="prev fa fa-arrow-left"></li>
+        <li class="next fa fa-arrow-right"></li>
+    </ul>
+</div>
 
    
   
@@ -129,9 +134,15 @@
 
 
 <div class="row row-gradient">
-     <div class="col-4 pr-0 pl-0 ">   <div class="col-4 espacio-gradientcard" id="gradient1"> </div> </div>
-     <div class="col-4 pr-0 pl-0">  <div class="col-4 espacio-gradientcard" id="gradient2"> </div></div>
-     <div class="col-4 pr-0 pl-0">  <div class="col-4 espacio-gradientcard" id="gradient3"> </div></div>
+     <div class="col-4 pr-0 pl-0 ">
+        <div class="col-4 espacio-gradientcard" id="gradient1"> Mis entrenamientos</div>
+       </div>
+     <div class="col-4 pr-0 pl-0">
+        <div class="col-4 espacio-gradientcard" id="gradient2"> Mis notas</div>
+      </div>
+     <div class="col-4 pr-0 pl-0">
+       <div class="col-4 espacio-gradientcard" id="gradient3"> Mis datos</div>
+      </div>
 
 
 </div>
@@ -149,6 +160,9 @@
 
 <script>
     $(document).ready(function(){
-  $('.carousel').slick({espacioname: "espacio" });
+  $('.carousel').slick({
+      espacioname: "espacio",
+      prevArrow: $('.prev'),
+      nextArrow: $('.next'), });
 });
     </script>
