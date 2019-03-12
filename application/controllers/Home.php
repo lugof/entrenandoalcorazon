@@ -13,14 +13,17 @@ class Home extends CI_Controller {
 		
 		
 	}
+	public function misdatos(){
+		$this->load->view('header');
+		$this->load->view('misdatos');
+		$this->load->view('footer');
+	}
 
-	function passwordRecovery(){
+	public function passwordRecovery(){
 		$this->load->view('header');
 		$this->load->view('passwordRecovery');
 		$this->load->view('footer');
 	}
-
-
 
 	public function contacto(){
 		$this->load->view('header');

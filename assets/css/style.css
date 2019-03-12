@@ -76,6 +76,70 @@ table {
     padding-left: 0px !important;
 }
 
+            /* Mis datos */
+.contenedor-misdatos{
+    
+    margin-top:10%
+}
+
+.misdatos-text{
+        margin-left:0;
+        font-family: 'SourceSansPro-Regular';
+        font-size: 15px;
+        color:#898989;
+    
+}
+.inputs-row{
+   
+    margin-bottom:2%
+}
+
+.datos-input{
+        margin-right:1%;
+        max-width: 80%;
+        height: 38px;
+        border: none;
+        margin-left:1%
+}
+
+.misdatos-btn{
+    max-width: 160px;
+    margin-left: 2px;
+    margin-right:3px;
+    height: 38px;
+    background-color: #FB0D1B;
+    font-family: 'SourceSansPro-Bold';
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 1%;
+    margin-top:3%;
+    padding-right:0;
+    padding-left:0
+    
+}
+.misdatos-whitebtn{
+    max-width: 160px;
+    margin-left: 3px;
+    margin-right:2px;
+    margin-top:3%;
+    height: 38px;
+    background-color: #FFF;
+    font-family: 'SourceSansPro-Bold';
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    padding-top: 1%;
+    border-color: #fb0d1b;
+    border-width: 2px;
+    padding-right:0;
+    padding-left:0
+
+}
+
+
+
+
                         /* User space view */
 .user-greeting{
     color:#898989;
@@ -85,6 +149,8 @@ table {
 .espacio-gradientcard{
     min-width:95%;
     min-height:200px;
+    text-align: center;
+    padding-top:50%
 }
 
 #gradient1{
@@ -103,7 +169,11 @@ table {
     margin-left:3%;
     margin-right:3%;
     margin-top:10%;
-    margin-bottom:5%
+    margin-bottom:5%;
+    color:#fff;
+    font-family: 'SourceSansPro-Bold';
+    font-size: 18px;
+
 }
 
  .card-user, .user-opt{
