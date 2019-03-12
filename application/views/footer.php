@@ -49,7 +49,7 @@
       SUSCRIBIR
 </button>
   </div>
-
+  </div>
 
 </div>
 
@@ -66,7 +66,7 @@
 
 
 <script src="<?= base_url("assets/js/script.js") ?>"></script>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 </body>
 

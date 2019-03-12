@@ -76,26 +76,89 @@ table {
     padding-left: 0px !important;
 }
 
-/* User space view */
+                        /* User space view */
 .user-greeting{
     color:#898989;
     font-family: 'SourceSansPro-Regular';
     font-size: 19px
 }
+.espacio-gradientcard{
+    min-width:95%;
+    min-height:200px;
+}
+
+#gradient1{
+    background-image: linear-gradient(to right,  #7340ad ,#6445ff);
+}
+
+#gradient2{
+    background-image: linear-gradient(to right,  #fc500a,#ffca1e);
+}
+
+#gradient3{
+    background-image: linear-gradient(to right,  #9ed800,#e5e51a);
+}
+
+.row-gradient{
+    margin-left:3%;
+    margin-right:3%;
+    margin-top:10%;
+    margin-bottom:5%
+}
+
 
 
  .card-user, .user-opt{
     color:#898989;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px
+    font-size: 15px;
+    max-height:450px
 }
+
+
 
 .user-opt:hover{
     color: #fb0d1b
 }
 
+.contenedor-espacio{
+    margin-top: 10%;
+    padding-left:6%
+}
+.espacio-text{
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15px;
+    color:#898989;
+   
+}
+.black-title-espacio{
+    font-family: 'SourceSansPro-Bold';
+    font-size: 18px;
+    color: #232323;
+    margin-left:3%;
+    margin-right:3%;
+    margin-bottom:3%
+}
+.image-carousel{
+    width:250px;
+    
+}
+.whitesquare-text{
+    font-family: 'SourceSansPro-Bold';
+    font-size: 15px;
+    padding-top:25%
+}
 
-
+.whitesquare-carousel{
+    color:#898989;
+    background:#ffffff;
+    width:250px;
+    height:200px;
+    padding:30px;
+    margin-right:20px;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15px;
+}
 
 
 
@@ -240,8 +303,11 @@ table {
     height: 500px;
 }
 
-body{
+.smallbody{
     background-color: #edf1f4;
+}
+.mybody{
+    background-color: #ffffff
 }
 
 .titulo-contacto-form{
@@ -329,7 +395,10 @@ background:lightcoral
     z-index:3
 }
 
-
+hr{
+    margin-top:0;
+    margin-bottom:0
+}
 
 
 body{
@@ -368,6 +437,22 @@ body{
 
 }
 
+.barbara-text{
+    font-family: 'Merriweather-BoldItalic';
+    font-size: 21px;
+    color:#232323
+}
+.barbara-text3{
+    font-family: 'Merriweather-LightItalic';
+    font-size: 21px;
+    color:#232323
+}
+.barbara-text2{
+    color:#898989;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15px;
+
+}
 
 /* Tarjeta roja */
 
@@ -384,9 +469,10 @@ body{
     width: 100%;
 }
 
+
 .infored{
-    width: 522px;
-    height: 422px;
+    width: 600px;
+    height: 490px;
     padding: 2% 4%;
     background-color: #FB0D1B;
     font-family: 'SourceSansPro-Regular';
@@ -450,11 +536,22 @@ body{
     display: block;
     margin: 0 auto;
     line-height: 12px;
+
    
- 
+}
+
+.btn-home-session{
+    color:#fb0d1b;
+    background-color:#fff;
+    width:200px;
+    font-family: 'SourceSansPro-Bold';
+    font-size: 13px
 
 }
 
+.alltrainings{
+    width:230px
+}
 
 .img1{
     position: relative;
@@ -831,6 +928,11 @@ margin-bottom: 100px;
 .row-login{
     margin-top:15%;
     margin-bottom:15%
+}
+.fullcard-user{
+    margin-top:10%;
+    max-height: 350px;
+    max-width:200px
 }
 
 

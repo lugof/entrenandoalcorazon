@@ -1,4 +1,4 @@
-
+<div class="mybody">
 
      <!-- slick -->
  
@@ -132,7 +132,7 @@
         <!-- Card infored  -->
 
         
-        <div class="col-md-4  col-sm-4 card border-0 infored">
+        <div class="col-md-5  col-sm-5 card border-0 infored">
 
           <div class="card-text centered infored-title text-light">     
             Conferencias y talleres<br><br>
@@ -144,7 +144,7 @@
 
 
         </div>
-        <div class="col-md-2 col-sm-2"></div>
+        <div class="col-md-1 col-sm-2"></div>
 
       </div>
       <!-- Card infored Ends -->
@@ -169,7 +169,7 @@
 
     <!-- Coach barbara info -->
 
-    <div class="row tu-coach justify-content-start ml-0 mt-5 mb-5">
+    <div class="row tu-coach justify-content-start ml-0 mt-5">
 
 
       <div class="card border-0 col-md-6 mt-1">
@@ -180,8 +180,8 @@
 
       <div class=" coach col-md-6 pr-0 pl-0 text-center">
         <div class="titulos_corazon">Tu Coach</div>
-        <span class="babara-text justify-content-center">Barbara De La Rosa, experta en relaciones afectivas, generacion de autoconfianza y valoracion.</span><br><br>
-        <span class="babara-text2 justify-content-center">Como especialista en neurociencia y programacion neurolinguistica he disenado un metodo para ayudar a sanar muchisimos corazones y devolver la confianza a miles de personas alrededor del mundo.
+        <span class="barbara-text justify-content-center">Barbara De La Rosa, </span> <span class="barbara-text3"> experta en relaciones afectivas, generacion de autoconfianza y valoracion. </span><br><br>
+        <span class="barbara-text2 justify-content-center">Como especialista en neurociencia y programacion neurolinguistica he disenado un metodo para ayudar a sanar muchisimos corazones y devolver la confianza a miles de personas alrededor del mundo.
           Sana tu corazon, vuelve a amar y vive feliz.
         </span><br><br>
         <div class="btn-entrenar "href="#" >Listo para entrenar</div>
@@ -221,11 +221,13 @@
           <img class=" side-image pb-0 mb-0" src="<?= base_url("assets/img/cursos-5.png") ?>">
         </div>
       </div>
-      <div class="row justify-content-center mb-5">
-        <button class="btn alltrainings mt-1 mb-1 pt-1 "href="#" >Todos los entrenamientos</button>
+      <div class="row justify-content-center  mt-1 mb-1">
+        <button class="btn alltrainings mt-4 mb-1 pt-1 rounded-0 "href="#" >Todos los entrenamientos</button>
       </div>
     </div>  
 
+
+    <hr>
     <!-- Entrenamientos components Ending -->
 
  
@@ -239,7 +241,7 @@
     <!-- 2 cards section -->
    
 
-      <div class=" mt-5 mb-5 pt-0 pb-5 mb-0 pr-0 ">
+      <div class=" mt-3 mb-0 pt-0  pr-0 ">
 
       <div class="row   card-gradient-row mr-0">
           <div class=" col-md-6 col-sm-12 col-gradient  ">
@@ -281,7 +283,7 @@
             
 
 
-              <button class="btn btn-danger" href="#" style="max-width: 50%">Iniciar sesion</button>
+              <button class="btn btn-home-session rounded-0 " href="#" style="max-width: 50%">Iniciar sesion</button>
               <div class="col-md-3"></div>
            
               
@@ -294,10 +296,12 @@
 </div>
 </div>
 
+  <hr>
+
 
 <!-- Blog del corazon -->
 
-      <div class=" row mt-5">
+      <div class=" row mt-4">
         <div class="col-md-4"></div>
         <div class="col-md-4 Entrenamientos text-danger text-center">  
        
@@ -345,15 +349,19 @@
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
             </div>
+        
+
           </div>
+      
+
         </div>
-
+        <hr>
       </div>
-
+      <hr>
       <!-- Blog del corazon Ending -->
 
 
-              
+      
         </div>
 
 
@@ -367,14 +375,13 @@
 
 
      
-
       
 
 </div>
 
       <!-- finaliza contenedor maximo -->
 
-      <hr>
+      
       <!-- Galeria -->
 
 
@@ -419,4 +426,3 @@
 
 
 
-    

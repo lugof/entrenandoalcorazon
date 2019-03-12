@@ -74,7 +74,7 @@
 
 
 
-    <div class="card col-2" >
+    <div class="card fullcard-user col-2" >
   
   <div class="card-body card-user text-center"> 
       <div class="user-greeting">Hola, Mayra</div>
@@ -99,10 +99,56 @@
 
 
 
-<div class="col-8">
+<div class="col-8 contenedor-espacio">
+<div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Bienvenido a tu nuevo espacio</div> <br> <br>
+<div class="row mb-3 mt-2 espacio-text text-center">Hemos renovado completamente este nuevo espacio para adaptarlo a ti y que en el encuentres todo lo relativo a tus entrenamientos, la agenda de eventos, notas, Descubrelo!
+</div>
+<div class="black-title-espacio"> Listo para tu proximo entrenamiento?
+
+<br>
+<br>
+
+<div class="carousel mt-5" data-slick='{"slidesToShow":4, "slidesToScroll":3}'>
+
+  
+            <div> <img src="<?= base_url("assets/img/cursos-2.png") ?>" class="image-carousel" id="image-carousel2" alt="carousel2" ></div>
+            <div>  <div class="whitesquare-carousel"> Dia 1 de 30   <div class="whitesquare-text"> DETOX EMOCIONAL SUPERANDO AL EX </div> </div> </div>
+            <div><img src="<?= base_url("assets/img/cursos-3.png") ?>" class=" image-carousel" alt="carousel2" ></div>
+            <div>  <div class="whitesquare-carousel"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> </div>
+            <div class="col-6 carousel1"><img src="<?= base_url("assets/img/cursos-1.png") ?>" class="image-carousel " alt="carousel1" ></div>
+            <div><img src="<?= base_url("assets/img/cursos-4.png") ?>" class="image-carousel " alt="carousel2" ></div>
+
+        </div>
+
+
+   
+  
+      
+
 </div>
 
+
+<div class="row row-gradient">
+     <div class="col-4 pr-0 pl-0 ">   <div class="col-4 espacio-gradientcard" id="gradient1"> </div> </div>
+     <div class="col-4 pr-0 pl-0">  <div class="col-4 espacio-gradientcard" id="gradient2"> </div></div>
+     <div class="col-4 pr-0 pl-0">  <div class="col-4 espacio-gradientcard" id="gradient3"> </div></div>
+
+
+</div>
+ 
+</div>
+
+ 
 
 
 <div class="col-1"></div>
 </div>
+</div>
+
+
+
+<script>
+    $(document).ready(function(){
+  $('.carousel').slick({espacioname: "espacio" });
+});
+    </script>
