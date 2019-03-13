@@ -48,7 +48,7 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link text-dark" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#">Tu coach</a>
@@ -57,7 +57,7 @@
             <a class="nav-link text-dark" href="#">Entrenamientos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contacto</a>
+            <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
           </li>
         </ul>
         <!-- Links -->
@@ -80,7 +80,7 @@
   
   <div class="card-body card-user">
       <div class="user-greeting mb-3">Hola, Mayra</div>
-  <img src="<?= base_url("assets/img/Asset 2.png") ?>" class="card-img-top user-icon" alt="..." style= 'width: 5rem;'>
+  <img src="<?= base_url("assets/img/Asset 2.png") ?>" class=" user-icon" alt="..." >
   
     
     <ul>
@@ -107,24 +107,43 @@
 <br>
 <br>
 
-<div class="carousel mt-5" data-slick='{"slidesToShow":4, "slidesToScroll":3}'>
+<div class="carousel mt-5" data-slick='{"slidesToShow":2, "slidesToScroll":2}'>
 
-  
-            <div> <img src="<?= base_url("assets/img/cursos-2.png") ?>" class="image-carousel" id="image-carousel2" alt="carousel2" ></div>
-            <div>  <div class="whitesquare-carousel"> Dia 1 de 30   <div class="whitesquare-text"> DETOX EMOCIONAL SUPERANDO AL EX </div> </div> </div>
-            <div><img src="<?= base_url("assets/img/cursos-3.png") ?>" class=" image-carousel" alt="carousel2" ></div>
-            <div>  <div class="whitesquare-carousel"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> </div>
+            
+
+           
+             <div class="row d-flex" > 
+               
+                <img src="<?= base_url("assets/img/cursos-2.png") ?>" class="image-carousel d-flex col-12 col-md-6 col-sm-12 col-lg-6" id="image-carousel2" alt="carousel2" > 
+              
+
+               <div class="whitesquare-carousel  col-12 col-md-6 col-sm-12 col-lg-6"> Dia 1 de 30   <div class="whitesquare-text d-flex"> DETOX EMOCIONAL SUPERANDO AL EX </div>   </div>
+              
+          
+  </div>
+
+            <div class="row d-flex">
+
+             <img src="<?= base_url("assets/img/cursos-3.png") ?>" class=" image-carousel col-12 col-md-6 col-sm-12 col-lg-6 d-flex" alt="carousel2" >
+              <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
+            </div>
+            
+
             <div class="col-6 carousel1"><img src="<?= base_url("assets/img/cursos-1.png") ?>" class="image-carousel " alt="carousel1" ></div>
             <div><img src="<?= base_url("assets/img/cursos-4.png") ?>" class="image-carousel " alt="carousel2" ></div>
+  </div>
+</div>
 
-        </div>
-        <div class="paginator-center text-color text-center">
+<div class="paginator-center text-color text-center">
     
     <ul>
         <li class="prev fa fa-arrow-left"></li>
         <li class="next fa fa-arrow-right"></li>
     </ul>
 </div>
+            
+        </div>
+      
 
    
   
@@ -134,18 +153,19 @@
 
 
 <div class="row row-gradient">
-     <div class="col-4 pr-0 pl-0 ">
+  <div class="col-md-3 "></div>
+     <div class="col-12 col-sm-12  col-lg-3 col-md-3 pr-0 pl-0 ">
         <div class="col-4 espacio-gradientcard" id="gradient1"> Mis entrenamientos</div>
        </div>
-     <div class="col-4 pr-0 pl-0">
+     <div class="col-12 col-sm-12 col-md-3 col-lg-3 pr-0 pl-0">
         <div class="col-4 espacio-gradientcard" id="gradient2"> Mis notas</div>
       </div>
-     <div class="col-4 pr-0 pl-0">
+     <div class="col-12 col-sm-12 col-md-3 col-lg-3 pr-0 pl-0">
        <div class="col-4 espacio-gradientcard" id="gradient3"> Mis datos</div>
       </div>
 
+  <div class="col-md-1"></div>
 
-</div>
  
 </div>
 

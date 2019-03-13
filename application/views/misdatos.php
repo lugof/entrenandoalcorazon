@@ -133,8 +133,9 @@
             <input  class="datos-input col-5" placeholder="  Apellidos(s)"  type="text" name=""><br><br>
               </div>
               <div class="row">
+              <div class="col-5">
                 <p>Fecha de nacimiento: </p>  
-<select>
+<selectn>
 <label for="exampleFormControlSelect1">01</label>
   <option value="1">01</option>
   <option value="2">02</option>
@@ -208,6 +209,29 @@
   <option value="1998">1998</option>
   <option value="1999">1999</option>
  </select>
+ </div>
+
+ <div class="col-5">
+    <p>Sexo> </p>
+    
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Hombre
+  </label>
+
+
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Mujer
+  </label>
+
+
+
+
+
+
+
+ </div>
 
 
               </div>

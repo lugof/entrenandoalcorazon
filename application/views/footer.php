@@ -24,7 +24,7 @@
     Galería<br>
     Blog<br>
     Tu coach<br>
-    Contacto<br>
+    <a class="footer-link"      href="<?= base_url("home/contacto") ?>" >Contacto </a><br>
     Aviso de privacidad<br>
     
   </div>

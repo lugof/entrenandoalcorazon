@@ -48,7 +48,7 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link text-dark" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-dark" href="<?= base_url("home/") ?>" >Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#">Tu coach</a>
@@ -57,7 +57,7 @@
             <a class="nav-link text-dark" href="#">Entrenamientos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contacto</a>
+            <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>" >Contacto</a>
           </li>
         </ul>
         <!-- Links -->
@@ -119,7 +119,7 @@
                
                 
                 </div>
-                <a href="#" class="btn iniciar-signup-button rounded-0 mb-0 mt-2 col-sm-12 text-center" onclick="submit_login();">Ya tienes una cuenta?  <u>Iniciar sesión</u></a>
+                <a href="<?= base_url("home/login") ?>"  class="btn iniciar-signup-button rounded-0 mb-0 mt-2 col-sm-12 text-center" onclick="submit_login();">Ya tienes una cuenta?  <u>Iniciar sesión</u></a>
                   <?php if(isset($datos_incorrectos)):?>
 
                   <div style="text-align: center; color: #FB0D1B; font-family: 'SourceSansPro-Bold'; font-size: 20px; margin-top: 20px; width: 100%;" ><?= $datos_incorrectos ?></div>

@@ -1,3 +1,6 @@
+
+<div class="smallbody">
+  
 <!-- 4 options Menu -->
 <div class="row">
         <div class="col-md-8"></div>
@@ -46,7 +49,7 @@
                 <!-- Links -->
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link text-dark" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-dark" href="<?= base_url("home/") ?>">Inicio <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Tu coach</a>
@@ -55,7 +58,7 @@
                     <a class="nav-link text-dark" href="#">Entrenamientos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Contacto</a>
+                    <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
                   </li>
                 </ul>
                 <!-- Links -->

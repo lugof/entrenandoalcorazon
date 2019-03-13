@@ -85,7 +85,7 @@ table {
 .misdatos-text{
         margin-left:0;
         font-family: 'SourceSansPro-Regular';
-        font-size: 15px;
+        font-size: 15pt;
         color:#898989;
     
 }
@@ -109,7 +109,7 @@ table {
     height: 38px;
     background-color: #FB0D1B;
     font-family: 'SourceSansPro-Bold';
-    font-size: 12px;
+    font-size: 12pt;
     color: #FFFFFF;
     text-align: center;
     padding-top: 1%;
@@ -126,7 +126,7 @@ table {
     height: 38px;
     background-color: #FFF;
     font-family: 'SourceSansPro-Bold';
-    font-size: 12px;
+    font-size: 12pt;
     color: black;
     text-align: center;
     padding-top: 1%;
@@ -144,13 +144,13 @@ table {
 .user-greeting{
     color:#898989;
     font-family: 'SourceSansPro-Regular';
-    font-size: 19px;
+    font-size: 19pt;
 }
 .espacio-gradientcard{
-    min-width:95%;
+    min-width:80%;
     min-height:200px;
     text-align: center;
-    padding-top:50%
+   
 }
 
 #gradient1{
@@ -166,20 +166,20 @@ table {
 }
 
 .row-gradient{
+    margin-right:9%;
     margin-left:3%;
-    margin-right:3%;
     margin-top:10%;
     margin-bottom:5%;
     color:#fff;
     font-family: 'SourceSansPro-Bold';
-    font-size: 18px;
+    font-size: 18pt;
 
 }
 
  .card-user, .user-opt{
     color:#898989;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
     max-height:450px;
     margin-left:10%
 }
@@ -194,7 +194,8 @@ table {
 
 .user-icon{
     margin-left: 10%;
-    margin-right:auto
+    margin-right:auto;
+    width:5rem;
 }
 .contenedor-espacio{
     margin-top: 10%;
@@ -214,13 +215,13 @@ table {
 
 .espacio-text{
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
     color:#898989;
 }
 
 .black-title-espacio{
     font-family: 'SourceSansPro-Bold';
-    font-size: 18px;
+    font-size: 18pt;
     color: #232323;
     margin-left:3%;
     margin-right:3%;
@@ -228,38 +229,41 @@ table {
 }
 
 .image-carousel{
-    width:250px;
+    width:45%;
+    padding:0;
+    max-height:200px
 }
 
-.whitesquare-text{
-    font-family: 'SourceSansPro-Bold';
-    font-size: 15px;
-    padding-top:25%
-}
+
 
 .whitesquare-carousel{
     color:#898989;
     background:#ffffff;
-    width:250px;
-    height:200px;
-    padding:30px;
-    margin-right:20px;
+    width: 45%;
+    max-height:200px;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
+    padding:0
 }
-
+.whitesquare-text{
+    font-family: 'SourceSansPro-Bold';
+    font-size: 15pt;
+    padding-top:25%;
+    width:45%;
+    padding-right:15%;
+}
 
 
                         /* Password recovery page */
 .password-text{
     font-family: 'SourceSansPro';
-    font-size: 15px;
+    font-size: 15pt;
     color:#898989
 }
 .text-contrasena-recovery{
     font-family: 'SourceSansPro-Bold';
     color: #898989;
-    font-size: 13px;
+    font-size: 13pt;
 }
 
 
@@ -301,13 +305,13 @@ table {
         .text-contrasena-signup{
             font-family: 'SourceSansPro-Regular';
             color:#898989;
-            font-size: 15px
+            font-size: 15pt
         
         }
 
         .signup-button{
             font-family: 'SourceSansPro-Bold';
-            font-size: 13px;
+            font-size: 13pt;
             padding-top:4%;
             padding-bottom:4%
         }
@@ -318,7 +322,9 @@ table {
 
 /* contacto page */
 .opt{
-    color:#988C89
+    color:#988C89;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15pt
 }
 .row-contacto{
     margin-left: 22%;
@@ -334,17 +340,17 @@ table {
 .text-contrasena-contacto{
     font-family: 'SourceSansPro-Regular';
     color:#898989;
-    font-size: 13px
+    font-size: 13pt
 
 }
 .text-nuevo-contacto{
     font-family: 'SourceSansPro-Regular';
     color:#898989;
-    font-size: 15px
+    font-size: 15pt
 }
 .contacto-button{
     font-family: 'SourceSansPro-Bold';
-    font-size: 13px
+    font-size: 13pt
 }
 
 /* Infored-infowhite */
@@ -356,7 +362,7 @@ table {
 
 .titulo-infored{
     font-family: 'SourceSansPro-Bold';
-    font-size: 35px;
+    font-size: 35pt;
     color: #FFF;
     text-align: left;
 }
@@ -364,7 +370,7 @@ table {
     max-width: 90%;
     padding-left: 10%;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
     padding-top:5%
     
     }
@@ -372,11 +378,11 @@ table {
  
 
         width: 522px;
-        height: 500px;
+        height: 600px;
         padding: 4% 4%;
         background-color: #FB0D1B;
         font-family: 'SourceSansPro-Regular';
-        font-size: 15px;
+        font-size: 15pt;
         color: #FFF;
         margin-bottom: 5%
     
@@ -388,7 +394,7 @@ table {
     padding-left:8%;
     padding-right: 8%;
     padding-top:3%;
-    height: 500px;
+    height: 600px;
 }
 
 .smallbody{
@@ -401,14 +407,14 @@ table {
 .titulo-contacto-form{
     color: red;
     font-family: 'SourceSansPro-Bold';
-    font-size: 35px;
+    font-size: 35pt;
     text-align: left;
 }
 
 .infowhite-text{
     color:#898989;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
     
 }
 
@@ -429,9 +435,8 @@ table {
     margin-right:8%;
     
 }
-.infored-contacto, .infowhite{
-    height: 80%;
-}
+
+
 
 
 }
@@ -497,7 +502,7 @@ body{
 
 .titulos_menu a{
     font-family: 'SourceSansPro-Bold';
-    font-size: 18px;
+    font-size: 18pt;
     color: #232323;
 }
 
@@ -512,7 +517,7 @@ body{
     position: absolute;
     top:2%;
     left: 10%;
-    min-height:40px;
+    min-height:40pt;
     padding-top:0;
     padding-bottom: 0;
     
@@ -527,18 +532,18 @@ body{
 
 .barbara-text{
     font-family: 'Merriweather-BoldItalic';
-    font-size: 21px;
+    font-size: 21pt;
     color:#232323
 }
 .barbara-text3{
     font-family: 'Merriweather-LightItalic';
-    font-size: 21px;
+    font-size: 21pt;
     color:#232323
 }
 .barbara-text2{
     color:#898989;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
 
 }
 
@@ -564,7 +569,7 @@ body{
     padding: 2% 4%;
     background-color: #FB0D1B;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
     color: #FFF;
 }
 
@@ -579,7 +584,7 @@ body{
 
 .titulos_corazon_blanco{
     font-family: 'SourceSansPro-Bold';
-    font-size: 25px;
+    font-size: 25pt;
     color: #FFF;
     text-align: left;
 }
@@ -595,7 +600,7 @@ body{
      width: 160px;
     height: 38px;
     font-family: 'SourceSansPro-Bold';
-    font-size: 12px;
+    font-size: 12pt;
     text-align: center;
     padding: 12px;
     color:#FFF;
@@ -618,7 +623,7 @@ body{
     background-color: #FFFF;
     border:2px solid #FB0D1B;
     font-family: 'SourceSansPro-Bold';
-    font-size: 12px;
+    font-size: 12pt;
     text-align: center;
     padding-top: 10px;
     display: block;
@@ -628,12 +633,17 @@ body{
    
 }
 
+#btn-home-session{
+    padding:0;
+
+}
 .btn-home-session{
     color:#fb0d1b;
     background-color:#fff;
-    width:200px;
+    width:100%;
     font-family: 'SourceSansPro-Bold';
-    font-size: 13px
+    font-size: 13pt;
+
 
 }
 
@@ -648,14 +658,14 @@ body{
 
 .babara-text{
     font-family: 'Merriweather-LightItalic';
-    font-size: 21px;
+    font-size: 21pt;
     color:#232323;
     text-align: center;
 }
 
 .babara-text2{
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
     color:#232323;
     text-align: center;
 }
@@ -670,8 +680,10 @@ body{
     min-height: 400px;
  max-height: 750px;
  background-color: #000D47;
- 
+}
 
+.footer-link{
+    color:#fff
 }
 
 
@@ -693,20 +705,20 @@ body{
 
 .columna_footer{
     font-family: 'SourceSansPro-Regular';
-    font-size: 16px;
+    font-size: 16pt;
     color: #FFFFFF;
     padding: 1% 10%;
 }
 x
 .columna_footer h6{
     font-family: 'SourceSansPro-Bold';
-    font-size: 16px;
+    font-size: 16pt;
     color: #FFFFFF;
 }
 
 .columna_footer .rojo{
     font-family: 'SourceSansPro-Bold';
-    font-size: 16px;
+    font-size: 16pt;
     color: #FF5A6E;
 }
 
@@ -715,7 +727,7 @@ x
     height: 38px;
     background-color: #FB0D1B;
     font-family: 'SourceSansPro-Bold';
-    font-size: 12px;
+    font-size: 12pt;
     color: #FFFFFF;
     text-align: center;
     padding-top: 2%;
@@ -804,6 +816,11 @@ img{
 }
 
 /* 2 cards section */
+
+
+.gradient2-text{
+    z-index:2
+}
 .centered{
     position: absolute;
     color: white;
@@ -811,13 +828,13 @@ img{
     bottom:10%;
     width: 95%;
     max-height: 90%;
-    font-size:15px;
+    font-size:15pt;
     font-family: "SourceSansPro-Regular";
 
 }
 
 .titulo-descarga{
-    font-size:36px;
+    font-size:36pt;
     font-family: "SourceSansPro-Bold";
     padding-top: 7%;
     margin-top: 7%;
@@ -831,9 +848,10 @@ img{
     margin-top: 3%;
     display:block;
     width: 94%;
+    min-height:350px
 }
 .card-gradient-row{
-    min-height: 500px;
+    min-height: 600px;
 }
 
 
@@ -848,7 +866,7 @@ min-height:350px
 }
 
 .btn-danger{
-    font-size: 12px;
+    font-size: 12pt;
     padding-top: 2%;
     margin-top: 3%
 }
@@ -856,7 +874,7 @@ min-height:350px
 
 .p-text{
     font-family: 'SourceSansPro-bold';
-    font-size: 18px;
+    font-size: 18pt;
     padding-top: 5%;
     margin-top: 5%;
     text-align: left;
@@ -865,14 +883,14 @@ min-height:350px
 
 .titulos_corazon{
     font-family: 'SourceSansPro-bold';
-    font-size: 36px;
+    font-size: 36pt;
     color: red;
     padding-top: 5%;
 }
 
 .titulos_2cards{
     font-family: 'SourceSansPro-Regular';
-    font-size: 15px;
+    font-size: 15pt;
     color: white;
     padding-top: 5%;
     text-align: left;
@@ -937,13 +955,13 @@ top:98%;
   }
 
   .titulo-descarga{
-      font-size: 22px;
+      font-size: 22pt;
       margin-top:6%;
   }
 
   .p-text{
       padding-top: 2%;
-      font-size: 12px;
+      font-size: 12pt;
 
   }
 
@@ -958,15 +976,15 @@ p, label{
 }
 .btn-primary{
     width:70%;
-    font-size: 7px;
+    font-size: 7pt;
     height: 25px;
     line-height: 65%;
 }
 .display-4{
-    font-size: 32px;
+    font-size: 32pt;
 }
 .lead{
-    font-size: 10px;
+    font-size: 10pt;
 }
 
 .entrenando_inp{
@@ -991,7 +1009,7 @@ margin-bottom: 100px;
 
 .card-title1{
     font-family: 'SourceSansPro-Bold';
-    font-size: 36px;
+    font-size: 36pt;
     color: #FB0D1B;
 }
 
@@ -1021,7 +1039,7 @@ margin-bottom: 100px;
 }
 .fullcard-user{
     margin-top:10%;
-    max-height: 350px;
+    max-height: 500px;
     max-width:200px
 }
 
@@ -1079,8 +1097,9 @@ margin-right:5%
     margin-right:13%;
     
 }
-.infored-contacto, .infowhite{
-    height: 90%;
+
+.user-icon{
+    width: 3rem
 }
 
 
@@ -1116,15 +1135,22 @@ margin-right:5%
 
 
 @media only screen and (max-width: 767px) {
-
-
-    .infored-contacto, .infowhite{
-        height: 442px;
-        
-    
-
-
+    .user-icon{
+        width:3rem;   
+        margin-left:0
     }
+
+    .card-user{
+        margin-left:5%;
+        padding:15%
+        
+    }
+    .user-opt{
+        margin-top:0;
+        margin-left:2%;
+        font-size: 12pt
+    }
+ 
     .columna_footer{
         margin-left: auto;
         margin-right: auto;
@@ -1179,20 +1205,26 @@ margin-right:5%
         margin-left:1%;
         margin-right: 1%
     }
-    
+    .user-opt{
+        font-size: 11pt;
+    }
+    .user-greeting{
+        font-size: 15pt
+    }
 
 
 }
 
 @media  screen and (max-width: 350px) {
     
+  
     .titulo-descarga{
-        font-size: 17px;
+        font-size: 17pt;
     }
   
     .p-text{
         padding-top: 2%;
-        font-size: 9px;
+        font-size: 9pt;
   
     }
     .contrata{

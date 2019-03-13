@@ -48,7 +48,7 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link text-dark" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-dark" href="<?= base_url("home/") ?>" >Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#">Tu coach</a>
@@ -57,7 +57,7 @@
             <a class="nav-link text-dark" href="#">Entrenamientos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contacto</a>
+            <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>" >Contacto</a>
           </li>
         </ul>
         <!-- Links -->
@@ -88,7 +88,7 @@
                         </div>
 
 
-                  <a href="#" class="btn btn-login contacto-button rounded-0 mb-2 mt-2 col-sm-12" onclick="submit_login();">Iniciar sesión</a>
+                  <a href="<?= base_url("home/login") ?>"  class="btn btn-login contacto-button rounded-0 mb-2 mt-2 col-sm-12" onclick="submit_login();">Iniciar sesión</a>
                   <?php if(isset($datos_incorrectos)):?>
 
                   <div style="text-align: center; color: #FB0D1B; font-family: 'SourceSansPro-Bold'; font-size: 20px; margin-top: 20px; width: 100%;" ><?= $datos_incorrectos ?></div>
@@ -97,12 +97,12 @@
 
                   <div class="row mb-3 mt-2">
              
-                  <a href="#" class="col-sm-12 text-center text-nuevo-contacto"> <u> Eres nuevo? </u></a>
+                  <a href="<?= base_url("home/signup") ?>"  class="col-sm-12 text-center text-nuevo-contacto"> <u> Eres nuevo? </u></a>
             
                 </div>
              
                 
-                  <a href="#" class="btn btn-login contacto-button rounded-0 col-sm-12">Crear tu cuenta</a>
+                  <a href="<?= base_url("home/signup") ?>"  class="btn btn-login contacto-button rounded-0 col-sm-12">Crear tu cuenta</a>
                
                 
                 </div>

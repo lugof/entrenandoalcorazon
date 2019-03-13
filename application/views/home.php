@@ -78,7 +78,7 @@
                 <!-- Links -->
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link text-dark" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Inicio <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="#">Tu coach</a>
@@ -87,7 +87,7 @@
                     <a class="nav-link text-dark" href="#">Entrenamientos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Contacto</a>
+                    <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
                   </li>
                 </ul>
                 <!-- Links -->
@@ -139,7 +139,7 @@
             <div class="titulos_corazon_blanco">La coach del corazon en tu ciudad</div><br><br>
             Envianos un correo electronico para informacion sobre contrataciones: info@entrenandoalcorazon.com o bien llamanos al +52 (81)8647 1723<br><br>
 
-            <div class="contrata">Contrata ya!</div>
+            <div> <a class="contrata"  href="<?= base_url("home/signup") ?>">Contrata ya! </a></div>
           </div>
 
 
@@ -278,12 +278,12 @@
               <p class="h3-size titulos_2cards ">Ya compraste algun entretenimiento y no sabes como iniciar sesion?,  haz click aqui para poder ver todo tu contenido.</p>
             </div>
             <div class="col-md-3"></div>
-            <div class="col-md-9 col-sm-12 pl-0">
+            <div class="col-md-9 col-sm-12 gradient2-text pl-0">
               <p class="p-text ">Que esperas, el cambio de tu vida esta al alcance de tus manos</p>
             
 
 
-              <button class="btn btn-home-session rounded-0 " href="#" style="max-width: 50%">Iniciar sesion</button>
+              <a class="btn btn-home-session rounded-0 " href="<?= base_url("home/login") ?>" > <button  class="btn btn-home-session " id="btn-home-session" style="max-width: 50%">Iniciar sesion </button></a>
               <div class="col-md-3"></div>
            
               
