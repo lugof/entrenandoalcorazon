@@ -10,8 +10,12 @@ class Home extends CI_Controller {
 		$this->load->helper('form');
 		$this->load->library('session');
 		$this->load->model("Panel_model");
-		
-		
+	}
+
+	public function misentrenamientos(){
+		$this->load->view('header');
+		$this->load->view('misentrenamientos');
+		$this->load->view('footer');
 	}
 	public function misdatos(){
 		$this->load->view('header');
@@ -28,6 +32,12 @@ class Home extends CI_Controller {
 	public function contacto(){
 		$this->load->view('header');
 		$this->load->view('contacto');
+		$this->load->view('footer');
+	}
+	
+	public function videos(){
+		$this->load->view('header');
+		$this->load->view('videos');
 		$this->load->view('footer');
 	}
 

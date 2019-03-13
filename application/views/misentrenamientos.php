@@ -97,77 +97,39 @@
 </div>
 <div class="col-1"> </div>
 
+<div class="col-6 contenedor-train">
+<div class="titulo-train-form col-12 pl-0 pr-0 ">Mis entrenamientos</div> 
+ 
 
-<div class="col-6 contenedor-videos pl-0 pr-0">
-<div class="titulo-train-form col-12 pl-0 pr-0 ">Detox emocional, "Superando al Ex"</div> 
-        
-        <img class="video-img1" src="<?= base_url("assets/img/Asset 10.png") ?>" alt="logo">
 
-        
-        <div class="video-menu" >
-        <div class="row">
-            <div class="col-12">
-            <select class="custom-select video-list" id="video-list" size="8">
-             
-              <option class="video-opt" value="1" selected >Dia 1</option>
-              <option class="video-opt video-par" value="2">Dia 2</option>
-              <option class="video-opt" value="3">Dia 3</option>
-              <option class="video-opt video-par" value="4">Dia 4</option>
-              <option class="video-opt" value="5">Dia 5</option>
-              <option class="video-opt video-par" value="6">Dia 6</option>
-              <option class="video-opt" value="7">Dia 7</option>
-              <option class="video-opt video-par" value="8">Dia 8</option>
-              <option class="video-opt" value="9">Dia 9</option>
-              <option class="video-opt video-par" value="10">Dia 10</option>
-              <option class="video-opt" value="11">Dia 11</option>
-              <option class="video-opt video-par" value="12">Dia 12</option>
-              <option class="video-opt" value="13">Dia 13</option>
-              <option class="video-opt video-par" value="14">Dia 14</option>
-              <option class="video-opt" value="15">Dia 15</option>
-              <option class="video-opt video-par" value="15">Dia 16</option>
-            </select>
-  </div> </div> 
+<div class="train-container">
+<img class="train-img1" src="<?= base_url("assets/img/Asset 10.png") ?>" alt="logo">
+<div class="train-date"> Dia 1 de 30 </div>
+<div class="train-title">DETOX EMOCIONAL "SUPERANDO AL EX"</div>
+<div class="train-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</div>
 
 </div>
 
-        <div class="row row-resources">
-        <p class="recursos-text col-6"> Recursos </p>
-              <div class=" col-3"></div>
-                <button class="btn entrenando_btn col-3" id="btn-tomarnota" type="input" href="#">
-                    Tomar nota
-                 </button>
-              </div>
-        <br>
+<div class="train-container">
+<img class="train-img1" src="<?= base_url("assets/img/Asset 8.png") ?>" alt="logo">
+<div class="train-date"> Dia 30 de 30 </div>
+<div class="train-title">DETOX + PNL</div>
+<div class="train-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</div>
 
-              <div class="row row-resources">
-                  <div class="col-6"> 
-                     <button class="btn btn-video-gradient1 rounded-0" type="input" href="#">
-                         Cuaderno de trabajo - Dia 1
-                     </button>
-                  </div>
+</div>
 
-                  <div class="col-6">
-                    <button class="btn btn-video-gradient2 rounded-0" type="input" href="#">
-                         Videos de Youtube  -  Dia 1
-                    </button>
-                  </div>
-        </div>
+<div class="train-container">
+<img class="train-img1" src="<?= base_url("assets/img/Asset 7.png") ?>" alt="logo">
+<div class="train-date"> Dia 20 de 30 </div>
+<div class="train-title">BE YOU DETOX EMOCIONAL</div>
+<div class="train-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</div>
 
+</div>
 
-<div class="row row-resources">
-<div class="col-6">
-    <button class="btn btn-video-gradient3 rounded-0" type="input" href="#">
-      Grupo de facebook - Superando al Ex
-</button>
-    </div>
-    <div class="col-6"></div>
       
 </div>
 
 <div class="col-2"></div>
-
-</div>
-
 </div>
 
 

@@ -48,16 +48,16 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link text-dark" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-dark"  href="<?= base_url("home/") ?>">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#">Tu coach</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Entrenamientos</a>
+            <a class="nav-link text-dark" href="<?= base_url("home/misentrenamientos") ?>">Entrenamientos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contacto</a>
+            <a class="nav-link text-dark"  href="<?= base_url("home/contacto") ?>">Contacto</a>
           </li>
         </ul>
         <!-- Links -->
@@ -84,9 +84,9 @@
   
     
     <ul>
-  <a href="#" class="user-opt"><li>Mi espacio</li></a>
-  <a href="#" class="user-opt"><li>Mis datos</li></a>
-  <a href="#" class="user-opt"><li>Mis entrenamientos</li></a>
+  <a  href="<?= base_url("home/espacio") ?>" class="user-opt"><li>Mi espacio</li></a>
+  <a  href="<?= base_url("home/misdatos") ?>" class="user-opt"><li>Mis datos</li></a>
+  <a href="<?= base_url("home/misentrenamientos") ?>" class="user-opt"><li>Mis entrenamientos</li></a>
   <a href="#" class="user-opt mb-3" id="user-opt-notes" ><li>Mis notas</li></a>
   <hr>
   <a href="#" class="user-opt "  id="user-opt-logout"> <li>Cerrar sesion</li></a>
@@ -124,18 +124,24 @@
 
 
           <div class="row inputs-row">
-            <input  class="datos-input col-5" placeholder="  Correo electronico"  type="text" name="">
-            <input  class="datos-input col-5" placeholder="  Telefono"  type="text" name=""><br><br>
+              <div class="col-6">
+            <input  class="datos-input col-6" placeholder=" Correo electronico"  type="text" name="">
               </div>
+              <div class="col-6">
+            <input  class="datos-input col-6" placeholder=" Telefono"  type="text" name=""><br><br>
+              </div> </div>
 
-          <div class="row inputs-row">
-            <input  class="datos-input col-5" placeholder="  Nombre(s)"  type="text" name="">
-            <input  class="datos-input col-5" placeholder="  Apellidos(s)"  type="text" name=""><br><br>
+              <div class="row inputs-row">
+              <div class="col-6">
+            <input  class="datos-input col-6" placeholder=" Nombre(s)"  type="text" name="">
               </div>
+              <div class="col-6">
+            <input  class="datos-input col-6" placeholder=" Apellido(s)"  type="text" name=""><br><br>
+              </div> </div>
               <div class="row">
               <div class="col-5">
                 <p>Fecha de nacimiento: </p>  
-<selectn>
+<select>
 <label for="exampleFormControlSelect1">01</label>
   <option value="1">01</option>
   <option value="2">02</option>
@@ -212,23 +218,14 @@
  </div>
 
  <div class="col-5">
-    <p>Sexo> </p>
+    <p>Sexo </p>
     
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-  <label class="form-check-label" for="exampleRadios1">
-    Hombre
-  </label>
-
-
+  <span><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked></span>
+  <label class="form-check-label" for="exampleRadios1">Hombre</label>
+<br>
+<br>
   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-    Mujer
-  </label>
-
-
-
-
-
+  <label class="form-check-label" for="exampleRadios2">Mujer</label>
 
 
  </div>
@@ -238,18 +235,57 @@
 
 
 
+              <div class="row inputs-row mt-3">
+            <div class="col-6 ">
+            <input  class="datos-input2 col-6" id="datosinput1" placeholder=" Pais"  type="text" name="">
+           
+
+            <input  class="datos-input2 col-6" id="datosinput2" placeholder="Estado"  type="text" name="">
+              </div>
+              <div class="col-6"> 
+              <input  class="datos-input2 col-6" id="datosinput1" placeholder="Municipio"  type="text" name="">
+              <input  class="datos-input2 col-6" id="datosinput2" placeholder="Codigo Postal"  type="text" name="">
+              </div>
+
+
+              
 
 </div>
+<div class="row inputs-row">
+              <div class="col-6">
+            <input  class="datos-input col-6" placeholder="Direccion"  type="text" name="">
+              </div>
+</div>
+<div class="row inputs-row">
+              <div class="col-6">
+            <input  class="datos-input col-6" placeholder="Contrasena"  type="text" name="">
+              </div>
+              <div class="col-3">
+              <button class="btn misdatos-upload rounded-0 col-2" type="input" href="#">
+                    Cambiar contrasena
+              </button> 
+            </div>
 
- 
 
 
+<div class="col-3"></div>
+</div>
+<div class="row inputs-row">
+<div class="col-4">
+              <button class="btn misdatos-last1 rounded-0 col-2" type="input" href="#">
+                    Actualizar datos
+              </button> 
+            </div>
+            <div class="col-4">       
+              <button class="btn misdatos-last2 rounded-0 col-2" type="input" href="#">
+                Cancelar
+              </button>  
+</div>
+            <div class="col-4">
+            <button class="btn misdatos-last2 rounded-0 col-2" type="input" href="#">
+                Eliminar Cuenta
+              </button>  
+            </div>
+</div>
+</div>
 <div class="col-2"></div>
-</div>
-
-
-
-
-</div>
-
-

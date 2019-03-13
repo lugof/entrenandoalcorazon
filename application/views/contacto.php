@@ -55,7 +55,7 @@
                     <a class="nav-link text-dark" href="#">Tu coach</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Entrenamientos</a>
+                    <a class="nav-link text-dark" href="<?= base_url("home/misentrenamientos") ?>">Entrenamientos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>

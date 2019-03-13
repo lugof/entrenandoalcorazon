@@ -54,7 +54,7 @@
             <a class="nav-link text-dark" href="#">Tu coach</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Entrenamientos</a>
+            <a class="nav-link text-dark" href="<?= base_url("home/misentrenamientos") ?>">Entrenamientos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
@@ -84,9 +84,9 @@
   
     
     <ul>
-  <a href="#" class="user-opt"><li>Mi espacio</li></a>
-  <a href="#" class="user-opt"><li>Mis datos</li></a>
-  <a href="#" class="user-opt"><li>Mis entrenamientos</li></a>
+  <a  href="<?= base_url("home/espacio") ?>" class="user-opt"><li>Mi espacio</li></a>
+  <a  href="<?= base_url("home/misdatos") ?>" class="user-opt"><li>Mis datos</li></a>
+  <a href="<?= base_url("home/misentrenamientos") ?>" class="user-opt"><li>Mis entrenamientos</li></a>
   <a href="#" class="user-opt mb-3" id="user-opt-notes" ><li>Mis notas</li></a>
   <hr>
   <a href="#" class="user-opt "  id="user-opt-logout"> <li>Cerrar sesion</li></a>
