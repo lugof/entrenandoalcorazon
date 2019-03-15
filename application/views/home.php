@@ -1,50 +1,21 @@
 <div class="mybody">
 
      <!-- slick -->
- 
+  <!-- 4 options Menu -->
+  <div class="row row-uppermenu">
+       
+       <div class="col-12 ">
+         <a class="opt1 text-white" href="#">  Agenda  |</a>
 
+         <a class="opt2 text-white" href="#">  Blog   |</a>
 
+         <a class="opt3 text-white" href="#">  Galeria   |</a>
 
-  <!-- Carousel begins -->
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:650px" alt="First slide">
-      </div>
+         <a class="opt4 text-white" href="#">  Siguenos   </a>
 
-
-
-      
-
-      <div class="carousel-item">
-        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:650px" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:650px" alt="Third slide">
-      </div>
-
-      
-
- 
-
-
-
-
-      <!-- 4 options Menu -->
-      <div class="row">
-        <div class="col-md-8"></div>
-        <div class="col-md-4 ">
-          <a class="opt1 text-white" href="#">  Agenda  |</a>
-
-          <a class="opt2 text-white" href="#">  Blog   |</a>
-
-          <a class="opt3 text-white" href="#">  Galeria   |</a>
-
-          <a class="opt4 text-white" href="#">  Siguenos   |</a>
-
-        </div>
-      </div>
-      <!-- 4 options menu End -->
+       </div>
+     </div>
+     <!-- 4 options menu End -->
 
 
       <!-- Navbar -->
@@ -57,14 +28,14 @@
 
           
          
-            <nav class="d-flex navbar pb-0 pl-0 navbar-expand-lg bg-light mr-0  titulos-navbar">
+            <nav class="d-flex navbar main-navbar pb-0 pl-0 navbar-expand-lg bg-light mr-0  titulos-navbar">
 
               <img class="p-2 logo" src="<?= base_url("assets/img/Asset 1.png") ?>" alt="logo">
 
               
 
-              <input type="image" src="<?= base_url("assets/img/Asset 2.png") ?>" name="saveForm" class="btTxt submit user" id="saveForm" >
-      
+           
+              <div class="col-md-1 col-sm-1 burger-button"> </div>
               <!-- Collapse button -->
               
               <button class="navbar-toggler toggler-example pt-0 mr-0 rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
@@ -72,59 +43,69 @@
                     class="fas fa-bars fa-1x"></i></span></button>
             
               <!-- Collapsible content -->
-              
-              <div class="collapse navbar-collapse rounded-bottom rounded-top" id="navbarSupportedContent1">
 
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Inicio <span class="sr-only">(current)</span></a>
+
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item d-flex active">
+                    <a class="nav-link text-dark d-flex" href="<?= base_url("home/contacto") ?>">Inicio <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item d-flex">
+                    <a class="nav-link d-flex text-dark" href="#">Tu coach</a>
+                  </li>
+                  <li class="nav-item d-flex">
+                    <a class="nav-link d-flex text-dark" href="<?= base_url("home/misentrenamientos") ?>">Entrenamientos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Tu coach</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="<?= base_url("home/misentrenamientos") ?>">Entrenamientos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
+                    <a class="nav-link d-flex text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
                   </li>
                 </ul>
-                <!-- Links -->
-                </div>
+                <input type="image" src="<?= base_url("assets/img/Asset 2.png") ?>" name="saveForm" class="btTxt submit user" id="saveForm" >
+
+                <a href="#" class="burger-link" > <img src="<?= base_url("assets/img/btn-menu@2x.png") ?>" alt="burger button"  class="burger-button"></a>
+             
 
                 </div>
- 
 
-
-              
-            
-
-  <div class="col-md-1 col-sm-1 burger-button"> </div>
         </nav>
       </div>
       <!-- Navbar End -->
 
 
+
+
+  <!-- Carousel begins -->
+  <div class="row">
+  <div class=" carousel-home" data-slick='{"slidesToShow":1, "slidesToScroll":3' > 
+
+                <div class="d-flex mr-0" > 
+                    <img class=" " src="<?= base_url("assets/img/banner-home.jpg") ?>" style="" alt="First slide">
+                </div>
+                      <div class=" d-flex mr-0" > 
+                        <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="" alt="Second slide">
+                      </div>
+                <div class=" d-flex mr-0" > 
+                  <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="" alt="Third slide">
+                </div>
+
+
+  </div>
+
+  </div>
+     
+
+
+
+
       <div class="row">
         <div class="col-md-6  col-sm-6">
           
-
-
-  
     <div class="back-fwd mr-5 pr-5">
-    <!-- Back and Fwd buttons -->
 
-    <a class="carousel-control-prev  " href="#carouselExampleControls" role="button btn btn-danger" data-slide="prev">
-    <i class="fas fa-angle-left "> </i>
-    </a>
 
- 
-<a class="carousel-control-next" href="#carouselExampleControls" role="button btn btn-danger" data-slide="next">
-<i class="fas fa-angle-right" >    </i>
-</a>
+
     
-<i class="fas " >    </i>
+    
+
 </div>
         </div>
 
@@ -153,6 +134,27 @@
     </div>
     
   </div>
+
+
+                <div class="paginator-center text-color text-center">
+                      <ul>
+                          <li class="prev fa fa-arrow-left"></li>
+                          <li class="next fa fa-arrow-right"></li>
+                      </ul>
+                  </div>
+
+
+
+
+
+
+
+
+              
+
+      
+
+
 
 
 
@@ -188,6 +190,11 @@
         </span><br><br>
         <button class="btn-entrenar "href="#" >Listo para entrenar</button>
 
+
+
+
+
+        
       </div>
 
 
@@ -434,3 +441,13 @@
 
 
 
+
+
+    <script>
+    $(document).ready(function(){
+  $('.carousel-home').slick({
+      homename: "home",
+      prevArrow: $('.prev'),
+      nextArrow: $('.next'), });
+});
+    </script>

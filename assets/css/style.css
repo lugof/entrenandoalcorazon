@@ -394,6 +394,11 @@ height:150px;
     font-size: 19pt;
 }
 
+.user{
+    position: absolute;
+    top:20%;
+    right:9%
+}
 .espacio-gradientcard{
     min-width:80%;
     min-height:200px;
@@ -690,7 +695,8 @@ height:150px;
     background-color: #edf1f4;
 }
 .mybody{
-    background-color: #ffffff
+    background-color: #ffffff;
+    width: 100%
 }
 
 .titulo-contacto-form{
@@ -739,7 +745,18 @@ height:150px;
     margin-bottom:1%
 }
 
-
+.main-navbar{
+    position: absolute;
+    z-index: 1;
+    top:10%;
+    left: 10%;
+    min-height:40pt;
+    padding-top:0;
+    padding-bottom: 0;
+    margin-top:3%
+        
+    
+}
 
 .navbar{
     display: inline-block;
@@ -779,10 +796,12 @@ background:lightcoral
     font-size: 18px;
 }
 
-.user{
-    position: absolute;
-    right:9%;
-    z-index:3
+.burger-button{
+  height:100%;
+  position: absolute;
+  right:0;
+  top:0%
+
 }
 
 hr{
@@ -809,16 +828,7 @@ body{
 }
 
 
-.navbar{
 
-    position: absolute;
-    top:2%;
-    left: 10%;
-    min-height:40pt;
-    padding-top:0;
-    padding-bottom: 0;
-    
-}
 
 .navbar-collapse{
     background-color: #f8f9fa;
@@ -1105,7 +1115,7 @@ x
     margin-right: 11%;
     max-height:  6500px;
     min-height: 50px;
-    margin-top:15%
+    margin-top:25%
 }
 .newrow{
     max-width:1300px;
@@ -1258,6 +1268,21 @@ height:380px;
     
 }
 /* Carousel */
+
+.text-white{
+    margin-left:3%;
+    margin-right:3%
+}
+.row-uppermenu{
+    position:absolute;
+    top:1%;
+    right:9%;
+    z-index:1
+}
+.carousel-home{
+    margin-right:0;
+    width:100%
+}
 .carousel-control-prev{
     background-color: red;
     width: 35% ;
