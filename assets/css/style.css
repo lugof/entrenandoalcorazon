@@ -875,13 +875,17 @@ body{
 
 
 .infored{
-    width: 600px;
-    height: 480px;
+    width: 645px;
+    height: 580px;
     padding: 2% 4%;
     background-color: #FB0D1B;
     font-family: 'SourceSansPro-Regular';
     font-size: 13pt;
     color: #FFF;
+    position: absolute;
+    z-index: 1;
+    top:7%;
+    right:8%;
 }
 
 .infored-title{
@@ -934,7 +938,7 @@ body{
 }
 .tu-coach{
     width:100%;
-    margin-top:13%
+    margin-top:9%
 }
 
 .btn-entrenar, .alltrainings{
@@ -1115,7 +1119,7 @@ x
     margin-right: 11%;
     max-height:  6500px;
     min-height: 50px;
-    margin-top:25%
+    margin-top:7%
 }
 .newrow{
     max-width:1300px;
@@ -1160,6 +1164,7 @@ img{
     height:60px;
     position:absolute;
     z-index:2;
+    left:5%
 }
 .row-movil-icons{
     margin-top:8%
@@ -1281,7 +1286,16 @@ height:380px;
 }
 .carousel-home{
     margin-right:0;
+    width:100%;
+    
+}
+
+.carousel-img{
+    height: calc(100vh - 100px);
     width:100%
+}
+.row-carousel{
+    max-height: 70%
 }
 .carousel-control-prev{
     background-color: red;

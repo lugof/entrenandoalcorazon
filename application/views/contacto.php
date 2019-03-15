@@ -1,73 +1,72 @@
 
 <div class="smallbody">
   
-<!-- 4 options Menu -->
-<div class="row">
-        <div class="col-md-8"></div>
-        <div class="col-md-4 ">
-          <a class="opt" href="#">  Agenda  |</a>
+  <!-- slick -->
+  <!-- 4 options Menu -->
+  <div class="row row-uppermenu">
+       
+       <div class="col-12 ">
+         <a class="opt" href="#">  Agenda  |</a>
 
-          <a class="opt" href="#">  Blog   |</a>
+         <a class="opt " href="#">  Blog   |</a>
 
-          <a class="opt" href="#">  Galeria   |</a>
+         <a class="opt " href="#">  Galeria   |</a>
 
-          <a class="opt" href="#">  Siguenos   |</a>
+         <a class="opt" href="#">  Siguenos   </a>
 
-        </div>
-      </div>
-      <!-- 4 options menu End -->
+       </div>
+     </div>
+     <!-- 4 options menu End -->
 
 
       <!-- Navbar -->
-      <div class="row mynavbar">
+      <div class="row" id="inicio">
 
-        <div class="col-md-1 col-sm-1 col-1 col-lg-1 ">
+        <div class="col-md-1 col-sm-1 col-1">
 
         </div>
-        <div class="col-md-10 col-sm-10 col-10 col-lg-10">
+        <div class="col-md-10 col-sm-10 col-10">
 
           
          
-            <nav class="d-flex navbar pb-0 mb-5 pl-0 navbar-expand-lg bg-light mr-0  titulos_menu">
+            <nav class="d-flex navbar main-navbar pb-0 pl-0 navbar-expand-lg bg-light mr-0  titulos-navbar">
 
               <img class="p-2 logo" src="<?= base_url("assets/img/Asset 1.png") ?>" alt="logo">
 
               
 
-              <input type="image" src="<?= base_url("assets/img/Asset 2.png") ?>" name="saveForm" class="btTxt submit user" id="saveForm" >
-      
+           
+              <div class="col-md-1 col-sm-1 burger-button"> </div>
               <!-- Collapse button -->
               
-              <button class="navbar-toggler toggler-example pt-0 mr-0 rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                    class="fas fa-bars fa-1x"></i></span></button>
-            
-              <!-- Collapsible content -->
               
-              <div class="collapse navbar-collapse rounded-bottom rounded-top" id="navbarSupportedContent1">
+              <!-- Collapsible content -->
 
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link text-dark" href="<?= base_url("home/") ?>">Inicio <span class="sr-only">(current)</span></a>
+
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item d-flex active">
+                    <a class="nav-link text-dark d-flex" href="<?= base_url("home/#inicio") ?>">Inicio <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item d-flex">
+                    <a class="nav-link d-flex text-dark" href="<?= base_url("home/#tu-coach") ?>">Tu coach</a>
+                  </li>
+                  <li class="nav-item d-flex">
+                    <a class="nav-link d-flex text-dark" href="<?= base_url("home/#entrenamientos") ?>">Entrenamientos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Tu coach</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="<?= base_url("home/misentrenamientos") ?>">Entrenamientos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
+                    <a class="nav-link d-flex text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
                   </li>
                 </ul>
-                <!-- Links -->
+                <a type="image"    name="saveForm" class="btTxt submit user" id="saveForm" href="<?= base_url("home/login") ?>"> <img class="btTxt submit user " id="saveForm "src="<?= base_url("assets/img/Asset 2.png") ?>"> </a>
+
+                <a href="#" class="burger-link" data-toggle="collapse" > <img src="<?= base_url("assets/img/btn-menu@2x.png") ?>" alt="burger button"  class="burger-button"></a>
+             
+
                 </div>
-            
-                </div>
-                <div class="col-md-1 col-sm-1 col-1 col-lg-1"> </div>
-</div>
-   <!-- Navbar Ends -->
+
+        </nav>
+      </div>
+      <!-- Navbar End -->
 
 
             

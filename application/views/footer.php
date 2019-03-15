@@ -1,7 +1,7 @@
 
  
  <!-- footer -->
- <div class="row footer">
+ <div class="row footer" id="footer">
   <div class="col-sm-12 redes_sociales">
     <div class="col-sm-4 img_redes d-flex justify-content-center">
 

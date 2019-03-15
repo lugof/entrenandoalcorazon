@@ -19,7 +19,7 @@
 
 
       <!-- Navbar -->
-      <div class="row">
+      <div class="row" id="inicio">
 
         <div class="col-md-1 col-sm-1 col-1">
 
@@ -38,30 +38,27 @@
               <div class="col-md-1 col-sm-1 burger-button"> </div>
               <!-- Collapse button -->
               
-              <button class="navbar-toggler toggler-example pt-0 mr-0 rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                    class="fas fa-bars fa-1x"></i></span></button>
-            
+              
               <!-- Collapsible content -->
 
 
               <ul class="navbar-nav mr-auto">
                   <li class="nav-item d-flex active">
-                    <a class="nav-link text-dark d-flex" href="<?= base_url("home/contacto") ?>">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-dark d-flex" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item d-flex">
-                    <a class="nav-link d-flex text-dark" href="#">Tu coach</a>
+                    <a class="nav-link d-flex text-dark" href="#tu-coach">Tu coach</a>
                   </li>
                   <li class="nav-item d-flex">
-                    <a class="nav-link d-flex text-dark" href="<?= base_url("home/misentrenamientos") ?>">Entrenamientos</a>
+                    <a class="nav-link d-flex text-dark" href="#entrenamientos">Entrenamientos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link d-flex text-dark" href="<?= base_url("home/contacto") ?>">Contacto</a>
                   </li>
                 </ul>
-                <input type="image" src="<?= base_url("assets/img/Asset 2.png") ?>" name="saveForm" class="btTxt submit user" id="saveForm" >
+                <a type="image"    name="saveForm" class="btTxt submit user" id="saveForm" href="<?= base_url("home/login") ?>"> <img class="btTxt submit user " id="saveForm "src="<?= base_url("assets/img/Asset 2.png") ?>"> </a>
 
-                <a href="#" class="burger-link" > <img src="<?= base_url("assets/img/btn-menu@2x.png") ?>" alt="burger button"  class="burger-button"></a>
+                <a href="#" class="burger-link" data-toggle="collapse" > <img src="<?= base_url("assets/img/btn-menu@2x.png") ?>" alt="burger button"  class="burger-button"></a>
              
 
                 </div>
@@ -74,24 +71,42 @@
 
 
   <!-- Carousel begins -->
-  <div class="row">
+  <div class="row row-carousel">
   <div class=" carousel-home" data-slick='{"slidesToShow":1, "slidesToScroll":3' > 
 
-                <div class="d-flex mr-0" > 
-                    <img class=" " src="<?= base_url("assets/img/banner-home.jpg") ?>" style="" alt="First slide">
+                <div class="d-flex carousel-img mr-0" > 
+                    <img class=" " src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:90%; width:100%" alt="First slide">
                 </div>
-                      <div class=" d-flex mr-0" > 
-                        <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="" alt="Second slide">
+                      <div class=" carousel-img d-flex mr-0" > 
+                        <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:90%; width:100%" alt="Second slide">
                       </div>
-                <div class=" d-flex mr-0" > 
-                  <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="" alt="Third slide">
+                <div class=" carousel-img d-flex mr-0" > 
+                  <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:90%; width:100%" alt="Third slide">
                 </div>
 
 
   </div>
 
   </div>
-     
+     <!-- Card infored  -->
+
+        
+  <div class="col-md-5  col-sm-5 card border-0 infored">
+
+<div class="card-text centered infored-title text-light">     
+  <p class="infored-conferencias">CONFERENCIAS Y TALLERES </p><br><br>
+  <div class="titulos_corazon_blanco">La coach del corazon en tu ciudad</div><br><br>
+  Envianos un correo electronico para informacion sobre contrataciones: info@entrenandoalcorazon.com o bien llamanos al +52 (81)8647 1723<br><br>
+
+  <div> <a class="contrata"  href="<?= base_url("home/signup") ?>">Contrata ya! </a></div>
+</div>
+
+
+</div>
+<div class="col-md-1 col-sm-2"></div>
+
+</div>
+<!-- Card infored Ends -->
 
 
 
@@ -101,7 +116,7 @@
           
     <div class="back-fwd mr-5 pr-5">
 
-
+  
 
     
     
@@ -110,25 +125,7 @@
         </div>
 
 
-        <!-- Card infored  -->
-
-        
-        <div class="col-md-5  col-sm-5 card border-0 infored">
-
-          <div class="card-text centered infored-title text-light">     
-            <p class="infored-conferencias">CONFERENCIAS Y TALLERES </p><br><br>
-            <div class="titulos_corazon_blanco">La coach del corazon en tu ciudad</div><br><br>
-            Envianos un correo electronico para informacion sobre contrataciones: info@entrenandoalcorazon.com o bien llamanos al +52 (81)8647 1723<br><br>
-
-            <div> <a class="contrata"  href="<?= base_url("home/signup") ?>">Contrata ya! </a></div>
-          </div>
-
-
-        </div>
-        <div class="col-md-1 col-sm-2"></div>
-
-      </div>
-      <!-- Card infored Ends -->
+      
 
 
     </div>
@@ -181,14 +178,14 @@
 
 
       <div class=" coach col-md-6 pr-0 pl-0 text-center">
-        <div class="titulos_corazon">Tu coach</div>
+        <div class="titulos_corazon" id="tu-coach">Tu coach</div>
         <span class="barbara-text justify-content-center">Barbara De La Rosa, </span> <span class="barbara-text3"> experta en relaciones afectivas, generacion de autoconfianza y valoracion. </span><br><br>
         <hr>
         <br>
         <span class="barbara-text2 justify-content-center">Como especialista en neurociencia y programacion neurolinguistica he disenado un metodo para ayudar a sanar muchisimos corazones y devolver la confianza a miles de personas alrededor del mundo.
           Sana tu corazon, vuelve a amar y vive feliz.
         </span><br><br>
-        <button class="btn-entrenar "href="#" >Listo para entrenar</button>
+        <a class="btn alltrainings "href="<?= base_url("home/misentrenamientos") ?>">Listo para entrenar</a>
 
 
 
@@ -211,7 +208,7 @@
       <div class="row  ">
      
         <div class=" text-center Entrenamientos text-danger col-md-12 col-sm-12 col-12">  
-          <div class="titulos_corazon text-center">Entrenamientos</div>
+          <div class="titulos_corazon text-center" id="entrenamientos">Entrenamientos</div>
         </div>
          
       </div>
@@ -231,7 +228,7 @@
         </div>
       </div>
       <div class="row justify-content-center  mt-1 mb-1">
-        <button class="btn alltrainings mt-4 mb-1 pt-1 rounded-0 "href="#" >Todos los entrenamientos</button>
+    <a  class="btn alltrainings mt-4 mb-1 pt-1 rounded-0 " href="<?= base_url("home/misentrenamientos") ?>">Todos los entrenamientos </a>
       </div>
     </div>  
 
@@ -270,10 +267,10 @@
                                             <p class=" mb-0 p-text">Ademas enterate de eventos y las ultimas novedades.</p> </div>
                                       <div class="col-md-3"></div>
                                       <div class="row row-movil-icons">
-                                              <div class="col-6">
+                                              <div class="col-4">
                                             <a id="googleplay-icon" href="# "> <img class="movil-icon" src="<?= base_url("assets/img/btn-google_play@2x.png") ?>" style="max-width:180px"> </a>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-4">
                                          <a id="iphone-icon" href="#"><img class="movil-icon" src="<?= base_url("assets/img/btn-appstore@2x.png") ?>" style="max-width:180px"></a>
                                         </div>
 </div>
