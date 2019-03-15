@@ -57,9 +57,7 @@
                   </li>
                 </ul>
                 <a type="image"    name="saveForm" class="btTxt submit user" id="saveForm" href="<?= base_url("home/login") ?>"> <img class="btTxt submit user " id="saveForm "src="<?= base_url("assets/img/Asset 2.png") ?>"> </a>
-
                 <a href="#" class="burger-link" data-toggle="collapse" > <img src="<?= base_url("assets/img/btn-menu@2x.png") ?>" alt="burger button"  class="burger-button"></a>
-             
 
                 </div>
 
@@ -185,7 +183,7 @@
         <span class="barbara-text2 justify-content-center">Como especialista en neurociencia y programacion neurolinguistica he disenado un metodo para ayudar a sanar muchisimos corazones y devolver la confianza a miles de personas alrededor del mundo.
           Sana tu corazon, vuelve a amar y vive feliz.
         </span><br><br>
-        <a class="btn alltrainings "href="<?= base_url("home/misentrenamientos") ?>">Listo para entrenar</a>
+        <a class="btn alltrainings "href="#">Listo para entrenar</a>
 
 
 
@@ -228,7 +226,7 @@
         </div>
       </div>
       <div class="row justify-content-center  mt-1 mb-1">
-    <a  class="btn alltrainings mt-4 mb-1 pt-1 rounded-0 " href="<?= base_url("home/misentrenamientos") ?>">Todos los entrenamientos </a>
+    <a  class="btn alltrainings mt-4 mb-1 pt-1 rounded-0 " href="#">Todos los entrenamientos </a>
       </div>
     </div>  
 
@@ -279,7 +277,7 @@
          
     
 
-              <div class=" col-md-6 col-sm-12   ">
+              <div class=" col-md-6 col-sm-12 col-gradient   ">
             <div class="card-gradient2 centered ">
             <img class="phone-image"  src="<?= base_url("assets/img/img-login.png") ?>"></div>
 

@@ -87,7 +87,7 @@
                   </div>
                         <div class="row mb-3 mt-2">
                           
-                          <a href="#" class="col-sm-12 text-center text-contrasena-contacto"> <u>Olvidaste tu contrasena? </u></a>
+                          <a href="<?= base_url("home/passwordRecovery") ?>" class="col-sm-12 text-center text-contrasena-contacto"> <u>Olvidaste tu contrasena? </u></a>
                          
                         </div>
 

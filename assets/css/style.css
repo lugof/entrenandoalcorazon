@@ -1164,7 +1164,8 @@ img{
     height:60px;
     position:absolute;
     z-index:2;
-    left:5%
+    left:10%;
+    width:95%
 }
 .row-movil-icons{
     margin-top:8%
@@ -1175,6 +1176,7 @@ img{
     width:590px;
     height:370px;
 }
+
 
 
 .gradient2-text{
@@ -1207,8 +1209,8 @@ img{
     background-image: linear-gradient(to right,  #7340ad ,#6445ff);
     margin-top: 3%;
     display:block;
-    max-width: 480px;
-    height:380px;
+    max-width: 90%;
+    height:550px;
 
 }
 .card-gradient-row{
@@ -1221,8 +1223,8 @@ img{
 background-image: linear-gradient(to right, #fc500a ,#ffca1e);
 display: block;
 margin-top: 3%;
-max-width: 480px;
-height:380px;
+max-width: 90%;
+height:550px;
 
 
 }
