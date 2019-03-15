@@ -101,13 +101,16 @@
 <div class="col-6 contenedor-videos pl-0 pr-0">
 <div class="titulo-train-form col-12 pl-0 pr-0 ">Detox emocional, "Superando al Ex"</div> 
         
+        <div class="row">
+        <div class="col-8 pr-0 mr-0">
         <img class="video-img1" src="<?= base_url("assets/img/Asset 10.png") ?>" alt="logo">
-
+          </div>
         
+        <div class="col-4 ml-0 pl-0">
         <div class="video-menu" >
         <div class="row">
             <div class="col-12">
-            <select class="custom-select video-list" id="video-list" size="8">
+            <select class="custom-select video-list rounded-0" id="video-list" size="8">
              
               <option class="video-opt" value="1" selected >Dia 1</option>
               <option class="video-opt video-par" value="2">Dia 2</option>
@@ -127,42 +130,58 @@
               <option class="video-opt video-par" value="15">Dia 16</option>
             </select>
   </div> </div> 
+    </div>
+      </div>
 
 </div>
 
         <div class="row row-resources">
         <p class="recursos-text col-6"> Recursos </p>
               <div class=" col-3"></div>
-                <button class="btn entrenando_btn col-3" id="btn-tomarnota" type="input" href="#">
+                <button class="btn entrenando_btn col-3 rounded-0" id="btn-tomarnota" type="input" href="#">
                     Tomar nota
                  </button>
               </div>
         <br>
 
-              <div class="row row-resources">
-                  <div class="col-6"> 
+
+
+                  <div class="row">
+                  <div class="col-6 pr-2"> 
+              
                      <button class="btn btn-video-gradient1 rounded-0" type="input" href="#">
                          Cuaderno de trabajo - Dia 1
-                     </button>
-                  </div>
 
-                  <div class="col-6">
+                         <img class=" white-arrow" src="<?= base_url("assets/img/icn-flecha_blanca.png") ?>" alt="logo">
+                     </button>
+                   
+                  </div>
+ 
+
+
+                  
+                  <div class="col-6 pl-2">
                     <button class="btn btn-video-gradient2 rounded-0" type="input" href="#">
                          Videos de Youtube  -  Dia 1
+                         <img class=" white-arrow" src="<?= base_url("assets/img/icn-flecha_blanca.png") ?>" alt="logo">
                     </button>
                   </div>
-        </div>
-
-
-<div class="row row-resources">
-<div class="col-6">
+                  </div>
+                  <div class="row row-resources">
+<div class="col-6 pr-2 mt-2">
     <button class="btn btn-video-gradient3 rounded-0" type="input" href="#">
       Grupo de facebook - Superando al Ex
+      <img class=" white-arrow" src="<?= base_url("assets/img/icn-flecha_blanca.png") ?>" alt="logo">
 </button>
+
     </div>
     <div class="col-6"></div>
       
 </div>
+                    </div>
+
+
+
 
 <div class="col-2"></div>
 
