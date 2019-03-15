@@ -77,7 +77,7 @@
     <div class=" card-text card-infowhite-signup ">
 
     
-                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Crear Cuenta</div> <br> <br>
+                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Crear cuenta</div> <br> <br>
 
     
                   <div class="input-group mt-2 mb-3">

@@ -9,7 +9,7 @@
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" alt="First slide">
+        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:650px" alt="First slide">
       </div>
 
 
@@ -17,10 +17,10 @@
       
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" alt="Second slide">
+        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:650px" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" alt="Third slide">
+        <img class="d-block w-100" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:650px" alt="Third slide">
       </div>
 
       
@@ -57,7 +57,7 @@
 
           
          
-            <nav class="d-flex navbar pb-0 pl-0 navbar-expand-lg bg-light mr-0  titulos_menu">
+            <nav class="d-flex navbar pb-0 pl-0 navbar-expand-lg bg-light mr-0  titulos-navbar">
 
               <img class="p-2 logo" src="<?= base_url("assets/img/Asset 1.png") ?>" alt="logo">
 
@@ -135,7 +135,7 @@
         <div class="col-md-5  col-sm-5 card border-0 infored">
 
           <div class="card-text centered infored-title text-light">     
-            Conferencias y talleres<br><br>
+            <p class="infored-conferencias">CONFERENCIAS Y TALLERES </p><br><br>
             <div class="titulos_corazon_blanco">La coach del corazon en tu ciudad</div><br><br>
             Envianos un correo electronico para informacion sobre contrataciones: info@entrenandoalcorazon.com o bien llamanos al +52 (81)8647 1723<br><br>
 
@@ -169,22 +169,24 @@
 
     <!-- Coach barbara info -->
 
-    <div class="row tu-coach justify-content-start ml-0 mt-5">
+    <div class="row tu-coach justify-content-start ml-0">
 
 
       <div class="card border-0 col-md-6 mt-1">
-        <img class="card-img-top border-0" src="<?= base_url("assets/img/tucoach.png") ?>" alt="Card image cap">
+        <img class="card-img-top coach-img border-0" src="<?= base_url("assets/img/tucoach.png") ?>" alt="Card image cap">
 
       </div>
 
 
       <div class=" coach col-md-6 pr-0 pl-0 text-center">
-        <div class="titulos_corazon">Tu Coach</div>
+        <div class="titulos_corazon">Tu coach</div>
         <span class="barbara-text justify-content-center">Barbara De La Rosa, </span> <span class="barbara-text3"> experta en relaciones afectivas, generacion de autoconfianza y valoracion. </span><br><br>
+        <hr>
+        <br>
         <span class="barbara-text2 justify-content-center">Como especialista en neurociencia y programacion neurolinguistica he disenado un metodo para ayudar a sanar muchisimos corazones y devolver la confianza a miles de personas alrededor del mundo.
           Sana tu corazon, vuelve a amar y vive feliz.
         </span><br><br>
-        <div class="btn-entrenar "href="#" >Listo para entrenar</div>
+        <button class="btn-entrenar "href="#" >Listo para entrenar</button>
 
       </div>
 
@@ -198,7 +200,7 @@
     <hr>
 
     <!-- Entrenamientos components -->
-   <div class=" justify-content-start mt-5 mb-5">
+   <div class=" justify-content-start mt-5 mb-4">
       <div class="row  ">
      
         <div class=" text-center Entrenamientos text-danger col-md-12 col-sm-12 col-12">  
@@ -209,15 +211,15 @@
 
       <div class="row mt-1 justify-content-start mr-0 ml-0">
         <div class="col-md-3 pl-0 pr-0 side-col pr-2">
-          <img class=" side-image pb-3" src="<?= base_url("assets/img/cursos-1.png") ?>">
-          <img class="side-image " src="<?= base_url("assets/img/cursos-2.png") ?>">
+          <img class=" side-image pb-3" src="<?= base_url("assets/img/cursos-2.png") ?>">
+          <img class="side-image " src="<?= base_url("assets/img/cursos-4.png") ?>">
         </div>
         <div class="col-md-6 pl-0 pr-0 center-col pr-2 pl-2">
-          <img class="center-image" src="<?= base_url("assets/img/cursos-3.png") ?>">
+          <img class="center-image" src="<?= base_url("assets/img/cursos-1.png") ?>">
         </div>
 
         <div class="col-md-3 pl-0 pr-0 side-col pl-2">
-          <img class="side-image pb-3" src="<?= base_url("assets/img/cursos-4.png") ?>">
+          <img class="side-image pb-3" src="<?= base_url("assets/img/cursos-3.png") ?>">
           <img class=" side-image pb-0 mb-0" src="<?= base_url("assets/img/cursos-5.png") ?>">
         </div>
       </div>
@@ -241,7 +243,7 @@
     <!-- 2 cards section -->
    
 
-      <div class=" mt-3 mb-0 pt-0  pr-0 ">
+      <div class=" mt-1 mb-0 pt-0  pr-0 ">
 
       <div class="row   card-gradient-row mr-0">
           <div class=" col-md-6 col-sm-12 col-gradient  ">
@@ -250,18 +252,24 @@
    
 
                       <div class=" card-gradient1 centered mr-2 pr-2">
-                      <img class="phone-image"  src="<?= base_url("assets/img/img-app.png") ?>"></div>
+                      <img class="phone-image"  src="<?= base_url("assets/img/img-app.png") ?> "></div>
                        
                           <div class="col-md-12 titulo-descarga"> Descarga el app 
-                            <div class="col-md-9 col-sm-12 pl-0">
-                            <div class="titulos_2cards">Siente al lado tuyo a tu coach del corazon, quien te dara todos los poderosos tips para lograr tu objetivo.</div>
-                            </div>
-                            <div class="col-md-3"></div>
-                            <div class="col-md-9 col-sm-12 pl-0">
-                            <p class=" mb-0 p-text">Ademas enterate de eventos y las ultimas novedades.</p> </div>
-                            <div class="col-md-3"></div>
-
-              
+                              <div class="col-md-9 col-sm-12 pl-0">
+                                <div class="titulos_2cards">Siente al lado tuyo a tu coach del corazon, quien te dara todos los poderosos tips para lograr tu objetivo.</div>
+                                </div>
+                                      <div class="col-md-3"></div>
+                                            <div class="col-md-9 col-sm-12 pl-0">
+                                            <p class=" mb-0 p-text">Ademas enterate de eventos y las ultimas novedades.</p> </div>
+                                      <div class="col-md-3"></div>
+                                      <div class="row row-movil-icons">
+                                              <div class="col-6">
+                                            <a id="googleplay-icon" href="# "> <img class="movil-icon" src="<?= base_url("assets/img/btn-google_play@2x.png") ?>" style="max-width:180px"> </a>
+                                        </div>
+                                        <div class="col-6">
+                                         <a id="iphone-icon" href="#"><img class="movil-icon" src="<?= base_url("assets/img/btn-appstore@2x.png") ?>" style="max-width:180px"></a>
+                                        </div>
+</div>
                 </div>
               </div>
          
@@ -302,19 +310,19 @@
 <!-- Blog del corazon -->
 
       <div class=" row mt-4">
-        <div class="col-md-4"></div>
-        <div class="col-md-4 Entrenamientos text-danger text-center">  
+        <div class="col-md-3"></div>
+        <div class="col-md-6 Entrenamientos text-danger text-center">  
        
            <div class="titulos_corazon">Blog del corazón</div>
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-3"></div>
       </div>
 
 
       <div class="row">
 
         <div class="col-md-4  ">
-          <div class="card card-inner border-0 pb-0" >
+          <div class="threecards card-inner border-0 pb-0" >
             <img src="<?= base_url("assets/img/Asset15.png") ?>" class="card-img-top border-0" alt="...">
             <div class="card-body">
               
@@ -328,7 +336,7 @@
 
 
         <div class="col-md-4  ">
-          <div class="card  card-inner border-0 pb-0" >
+          <div class="threecards  card-inner border-0 pb-0" >
             <img src="<?= base_url("assets/img/Asset16.png") ?>" class="card-img-top" alt="...">
             <div class="card-body">
               
@@ -341,7 +349,7 @@
 
 
         <div class="col-md-4 ">
-          <div class="card  card-inner border-0 pb-0" >
+          <div class="threecards  card-inner border-0 pb-0" >
             <img src="<?= base_url("assets/img/Asset17.png") ?>" class="card-img-top" alt="...">
             <div class="card-body">
               

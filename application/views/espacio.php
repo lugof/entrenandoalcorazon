@@ -107,7 +107,7 @@
 <br>
 <br>
 
-<div class="carousel mt-5" data-slick='{"slidesToShow":2, "slidesToScroll":2}'>
+<div class="carousel mt-5" data-slick='{"slidesToShow":2, "slidesToScroll":1}'>
 
             
 
@@ -117,9 +117,7 @@
                 <img src="<?= base_url("assets/img/cursos-2.png") ?>" class="image-carousel d-flex col-12 col-md-6 col-sm-12 col-lg-6" id="image-carousel2" alt="carousel2" > 
               
 
-               <div class="whitesquare-carousel  col-12 col-md-6 col-sm-12 col-lg-6"> Dia 1 de 30   <div class="whitesquare-text d-flex"> DETOX EMOCIONAL SUPERANDO AL EX </div>   </div>
-              
-          
+               <div class="whitesquare-carousel  col-12 col-md-6 col-sm-12 col-lg-6 d-flex"> Dia 1 de 30   <div class="whitesquare-text d-flex"> DETOX EMOCIONAL SUPERANDO AL EX </div>   </div>
   </div>
 
             <div class="row d-flex">
@@ -129,8 +127,19 @@
             </div>
             
 
-            <div class="col-6 carousel1"><img src="<?= base_url("assets/img/cursos-1.png") ?>" class="image-carousel " alt="carousel1" ></div>
-            <div><img src="<?= base_url("assets/img/cursos-4.png") ?>" class="image-carousel " alt="carousel2" ></div>
+            <div class="row d-flex">
+
+              <img src="<?= base_url("assets/img/cursos-1.png") ?>" class=" image-carousel col-12 col-md-6 col-sm-12 col-lg-6 d-flex" alt="carousel2" >
+              <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6 d-flex"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
+              </div>
+
+              <div class="row d-flex">
+
+                  <img src="<?= base_url("assets/img/cursos-4.png") ?>" class=" image-carousel col-12 col-md-6 col-sm-12 col-lg-6 d-flex" alt="carousel2" >
+                  <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
+                  </div>
+
+
   </div>
 </div>
 
@@ -155,13 +164,24 @@
 <div class="row row-gradient">
   <div class="col-md-3 "></div>
      <div class="col-12 col-sm-12  col-lg-3 col-md-3 pr-0 pl-0 ">
-        <div class="col-4 espacio-gradientcard" id="gradient1"> Mis entrenamientos</div>
+        <div class="col-4 espacio-gradientcard" id="gradient1" > Mis entrenamientos
+      <img class="gradient-shade" src="<?= base_url("assets/img/bg-mis_entrenamientos.png") ?>" >
+
+    
+
+
+        </div>
        </div>
      <div class="col-12 col-sm-12 col-md-3 col-lg-3 pr-0 pl-0">
         <div class="col-4 espacio-gradientcard" id="gradient2"> Mis notas</div>
+        <img class="gradient-shade" src="<?= base_url("assets/img/bg-mis_notas.png") ?>" >
+      
+        
       </div>
      <div class="col-12 col-sm-12 col-md-3 col-lg-3 pr-0 pl-0">
-       <div class="col-4 espacio-gradientcard" id="gradient3"> Mis datos</div>
+       <div class="col-4 espacio-gradientcard" id="gradient3"> Mis datos
+       <img class="gradient-shade" src="<?= base_url("assets/img/bg-mis_datos.png") ?>" >
+       </div>
       </div>
 
   <div class="col-md-1"></div>

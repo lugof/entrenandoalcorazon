@@ -141,94 +141,119 @@
               <div class="row">
               <div class="col-5">
                 <p>Fecha de nacimiento: </p>  
-<select>
-<label for="exampleFormControlSelect1">01</label>
-  <option value="1">01</option>
-  <option value="2">02</option>
-  <option value="3">03</option>
-  <option value="4">04</option>
-  <option value="1">05</option>
-  <option value="2">06</option>
-  <option value="3">07</option>
-  <option value="4">08</option>
-  <option value="1">09</option>
-  <option value="2">10</option>
-  <option value="3">11</option>
-  <option value="4">12</option>
-  <option value="1">13</option>
-  <option value="2">14</option>
-  <option value="3">15</option>
-  <option value="4">16</option>
-  <option value="1">17</option>
-  <option value="2">18</option>
-  <option value="3">19</option>
-  <option value="4">20</option>
-  <option value="1">21</option>
-  <option value="2">22</option>
-  <option value="3">23</option>
-  <option value="4">24</option>
-  <option value="1">25</option>
-  <option value="2">26</option>
-  <option value="3">27</option>
-  <option value="4">28</option>
-  <option value="1">29</option>
-  <option value="2">30</option>
-  <option value="3">31</option>
-</select>
 
-<select>
-<label for="exampleFormControlSelect1">ENE</label>
-  <option value="enero">ENERO</option>
-  <option value="febrero">FEBRERO</option>
-  <option value="marzo">MARZO</option>
-  <option value="abril">ABRIL</option>
-  <option value="mayo">MAYO</option>
-  <option value="junio">JUNIO</option>
-  <option value="julio">JULIO</option>
-  <option value="agosto">AGOSTO</option>
-  <option value="septiembre">SEPTIEMBRE</option>
-  <option value="octubre">OCTUBRE</option>
-  <option value="noviembre">NOVIEMBRE</option>
-  <option value="diciembre">DICIEMBRE</option>
- </select>
 
- <select>
-<label for="exampleFormControlSelect1">1980</label>
-  <option value="1980">1980</option>
-  <option value="1981">1981</option>
-  <option value="1982">1982</option>
-  <option value="1983">1983</option>
-  <option value="1984">1984</option>
-  <option value="1985">1985</option>
-  <option value="1986">1986</option>
-  <option value="1987">1987</option>
-  <option value="1988">1988</option>
-  <option value="1989">1989</option>
-  <option value="1990">1990</option>
-  <option value="1991">1991</option>
-  <option value="1992">1992</option>
-  <option value="1993">1993</option>
-  <option value="1994">1994</option>
-  <option value="1995">1995</option>
-  <option value="1996">1996</option>
-  <option value="1997">1997</option>
-  <option value="1998">1998</option>
-  <option value="1999">1999</option>
- </select>
+
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-datos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      01
+                    </button>
+                    <div class="dropdown-menu">
+                      <option value="1">01</option>
+                      <option value="2">02</option>
+                      <option value="3">03</option>
+                      <option value="4">04</option>
+                      <option value="1">05</option>
+                      <option value="2">06</option>
+                      <option value="3">07</option>
+                      <option value="4">08</option>
+                      <option value="1">09</option>
+                      <option value="2">10</option>
+                      <option value="3">11</option>
+                      <option value="4">12</option>
+                      <option value="1">13</option>
+                      <option value="2">14</option>
+                      <option value="3">15</option>
+                      <option value="4">16</option>
+                      <option value="1">17</option>
+                      <option value="2">18</option>
+                      <option value="3">19</option>
+                      <option value="4">20</option>
+                      <option value="1">21</option>
+                      <option value="2">22</option>
+                      <option value="3">23</option>
+                      <option value="4">24</option>
+                      <option value="1">25</option>
+                      <option value="2">26</option>
+                      <option value="3">27</option>
+                      <option value="4">28</option>
+                      <option value="1">29</option>
+                      <option value="2">30</option>
+                      <option value="3">31</option>
+                    </div>
+                  </div>
+                    
+                  
+               
+                  <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-datos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ENE
+                    </button>
+                    <div class="dropdown-menu ">
+
+
+                        <option class="active dropdown-item" value="enero">ENERO</option>
+                        <option value="febrero dropdown-item">FEBRERO</option>
+                        <option value="marzo dropdown-item">MARZO</option>
+                        <option value="abril dropdown-item">ABRIL</option>
+                        <option value="mayo dropdown-item">MAYO</option>
+                        <option value="junio dropdown-item">JUNIO</option>
+                        <option value="julio dropdown-item">JULIO</option>
+                        <option value="agosto dropdown-item">AGOSTO</option>
+                        <option value="septiembre dropdown-item">SEPTIEMBRE</option>
+                        <option value="octubre dropdown-item">OCTUBRE</option>
+                        <option value="noviembre dropdown-item">NOVIEMBRE</option>
+                        <option value="diciembre dropdown-item">DICIEMBRE</option>
+                                          </div>
+                                          </div>
+
+
+     
+                                          <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-datos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      1980
+                    </button>
+                    <div class="dropdown-menu dropdown-datos">
+                          <option value="1980">1980</option>
+                          <option value="1981">1981</option>
+                          <option value="1982">1982</option>
+                          <option value="1983">1983</option>
+                          <option value="1984">1984</option>
+                          <option value="1985">1985</option>
+                          <option value="1986">1986</option>
+                          <option value="1987">1987</option>
+                          <option value="1988">1988</option>
+                          <option value="1989">1989</option>
+                          <option value="1990">1990</option>
+                          <option value="1991">1991</option>
+                          <option value="1992">1992</option>
+                          <option value="1993">1993</option>
+                          <option value="1994">1994</option>
+                          <option value="1995">1995</option>
+                          <option value="1996">1996</option>
+                          <option value="1997">1997</option>
+                          <option value="1998">1998</option>
+                          <option value="1999">1999</option>
+                        </select>
+                        </div>
+                        </div>
  </div>
 
- <div class="col-5">
+ <div class="col-1">
     <p>Sexo </p>
-    
-  <span><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked></span>
+    </div>
+    <div class="col-2">
+  <span><input class="form-check-input mt-0" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked></span>
   <label class="form-check-label" for="exampleRadios1">Hombre</label>
+  </div>
 <br>
 <br>
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+<div class="col-2">
+  <input class="form-check-input mt-0" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
   <label class="form-check-label" for="exampleRadios2">Mujer</label>
+</div>
 
-
- </div>
+ 
 
 
               </div>
@@ -286,6 +311,8 @@
                 Eliminar Cuenta
               </button>  
             </div>
+            </div>
+
 </div>
 </div>
 <div class="col-2"></div>

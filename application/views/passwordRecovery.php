@@ -96,9 +96,9 @@
                   <?php endif; ?>
 
                   <div class="row mb-3 mt-2">
-             
-                  <a href="<?= base_url("home/signup") ?>"  class="col-sm-12 text-center text-nuevo-contacto"> <u> Eres nuevo? </u></a>
-            
+                  <div class="col-3 mt-2"><hr></div>
+                  <a href="<?= base_url("home/signup") ?>"  class="col-sm-6 text-center text-nuevo-contacto"> <u> Eres nuevo? </u></a>
+                  <div class="col-3 mt-2"><hr></div>
                 </div>
              
                 

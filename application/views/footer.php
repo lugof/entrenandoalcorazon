@@ -5,20 +5,21 @@
   <div class="col-sm-12 redes_sociales">
     <div class="col-sm-4 img_redes d-flex justify-content-center">
 
+
+    <img class="social_favicon" src="<?= base_url("assets/img/icn-twitter.png") ?>">
       <img class="social_favicon" src="<?= base_url("assets/img/icn-facebook.png") ?>">
-      <img class="social_favicon" src="<?= base_url("assets/img/icn-twitter.png") ?>">
       <img class="social_favicon" src="<?= base_url("assets/img/icn-instagram.png") ?>">
       <img class="social_favicon" src="<?= base_url("assets/img/icn-youtube.png") ?>">
 
     </div>
     <hr>
   </div>
-   
+    <div class="col-1"></div>
 
-  <div class="col-md-4 col-sm-12 columna_footer">
+  <div class="col-md-3 col-sm-12 columna_footer" id="col1footer">
 
-   <h6>Páginas</h6> <br>
-
+   <p class="footer-title">Páginas</p> <br>
+  <br>
     Eventos<br>
     Cursos<br>
     Galería<br>
@@ -30,8 +31,8 @@
   </div>
 
   <div class="col-md-4 col-sm-12 columna_footer">
-    <h6>Contacto</h6>
-
+    <p class="footer-title">Contacto</p>
+  <br>
     Blvd. Antonio L. Rodríguez 2100,Piso 11, Edificio B.H. Business Hub, Colonia Santa María, Mty, N.L. Mx. 64650 <br><br>
 
    <span class="rojo"> +52 (81) 8647 1723 
@@ -39,8 +40,8 @@
   </div>
 
   <div class="col-md-4 col-sm-12 columna_footer ">
-   <h6>Newsletter</h6> 
-
+   <p class="footer-title">Newsletter</p> 
+  <br>
     Regístrate para recibir noticias e información de los nuevos entrenamientos.<br><br>
 
 
