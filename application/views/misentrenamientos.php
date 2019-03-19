@@ -8,9 +8,9 @@
 
          <a class="opt " href="#">  Blog   |</a>
 
-         <a class="opt " href="#">  Galeria   |</a>
+         <a class="opt " href="#">  Galería   |</a>
 
-         <a class="opt" href="#">  Siguenos   </a>
+         <a class="opt" href="#">  Síguenos   </a>
 
        </div>
      </div>
@@ -88,7 +88,7 @@
   <a href="<?= base_url("home/misentrenamientos") ?>" class="user-opt"><li>Mis entrenamientos</li></a>
   <a href="#" class="user-opt mb-3" id="user-opt-notes" ><li>Mis notas</li></a>
   <hr>
-  <a href="#" class="user-opt "  id="user-opt-logout"> <li>Cerrar sesion</li></a>
+  <a href="#" class="user-opt "  id="user-opt-logout"> <li>Cerrar sesión</li></a>
 </ul>
 
 
@@ -104,7 +104,7 @@
 <div class="train-container row">
 <div class="col-9">
 <img class="train-img1" src="<?= base_url("assets/img/Asset 10.png") ?>" alt="logo">
-<div class="train-date"> Dia 1 de 30 </div>
+<div class="train-date"> Día 1 de 30 </div>
 <div class="train-title">DETOX EMOCIONAL "SUPERANDO AL EX"</div>
 <div class="train-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</div>
 </div>
@@ -117,7 +117,7 @@
 <div class="train-container row">
 <div class="col-9">
 <img class="train-img1" src="<?= base_url("assets/img/Asset 8.png") ?>" alt="logo">
-<div class="train-date"> Dia 30 de 30 </div>
+<div class="train-date"> Día 30 de 30 </div>
 <div class="train-title">DETOX + PNL</div>
 <div class="train-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</div>
 </div>
@@ -131,7 +131,7 @@
 <div class="train-container row">
 <div class="col-9">
 <img class="train-img1" src="<?= base_url("assets/img/Asset 7.png") ?>" alt="logo">
-<div class="train-date"> Dia 20 de 30 </div>
+<div class="train-date"> Día 20 de 30 </div>
 <div class="train-title">BE YOU DETOX EMOCIONAL</div>
 <div class="train-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</div>
 </div>

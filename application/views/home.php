@@ -4,16 +4,14 @@
   <!-- 4 options Menu -->
   <div class="row row-uppermenu">
        
-       <div class="col-12 ">
-         <a class="opt1 text-white" href="#">  Agenda  |   </a>
-
-         <a class="opt2 text-white" href="#">  Blog   |   </a>
-
-         <a class="opt3 text-white" href="#">  Galeria   |   </a>
-
-         <a class="opt4 text-white" href="#">  Siguenos   </a>
-
-       </div>
+         <a class="upper-opt col-2 text-white" href="#">Agenda</a>         
+              <p class="col-1 bar text-white">|</p>
+         <a class="upper-opt col-2  text-white" href="#">Blog</a>
+              <p class="bar col-1 text-white">|</p>
+         <a class="upper-opt col-2 text-white" href="#">Galería</a>
+            <p class="bar col-1 text-white">|</p>
+         <a class="upper-opt  col-2 text-white" href="#">Síguenos</a>
+ 
      </div>
      <!-- 4 options menu End -->
 
@@ -73,13 +71,13 @@
   <div class=" carousel-home" data-slick='{"slidesToShow":1, "slidesToScroll":3' > 
 
                 <div class="d-flex carousel-img mr-0" > 
-                    <img class=" " src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:90%; width:100%" alt="First slide">
+                    <img class=" " src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:85%; width:100%" alt="First slide">
                 </div>
                       <div class=" carousel-img d-flex mr-0" > 
-                        <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:90%; width:100%" alt="Second slide">
+                        <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:85%; width:100%" alt="Second slide">
                       </div>
                 <div class=" carousel-img d-flex mr-0" > 
-                  <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:90%; width:100%" alt="Third slide">
+                  <img class="" src="<?= base_url("assets/img/banner-home.jpg") ?>" style="height:85%; width:100%" alt="Third slide">
                 </div>
 
 
@@ -89,14 +87,14 @@
      <!-- Card infored  -->
 
         
-  <div class="col-md-5  col-sm-5 card border-0 infored">
+  <div class="col-md-5  col-sm-5 card border-0 infored rounded-0">
 
 <div class="card-text centered infored-title text-light">     
   <p class="infored-conferencias">CONFERENCIAS Y TALLERES </p><br><br>
-  <div class="titulos_corazon_blanco">La coach del corazon en tu ciudad</div><br><br>
-  Envianos un correo electronico para informacion sobre contrataciones: info@entrenandoalcorazon.com o bien llamanos al +52 (81)8647 1723<br><br>
+  <div class="titulos_corazon_blanco">La coach del corazón en tu ciudad.</div><br><br>
+  Envianos un correo electrónico para información sobre contrataciones: info@entrenandoalcorazon.com o bien llámanos al +52 (81) 8647 1723 <br><br>
 
-  <div> <a class="contrata"  href="<?= base_url("home/signup") ?>">Contrata ya! </a></div>
+  <div> <a class="contrata"  href="<?= base_url("home/signup") ?>">¡Contrata ya! </a></div>
 </div>
 
 
@@ -131,10 +129,10 @@
   </div>
 
 
-                <div class="paginator-center text-color text-center">
+                <div class=" text-color">
                       <ul>
-                          <li class="prev fa fa-arrow-left"></li>
-                          <li class="next fa fa-arrow-right"></li>
+                            <img class="prev fa fa-arrow-left " src="<?= base_url("assets/img/btn-back-hover@2x.png") ?>" >
+                          <img class="next fa fa-arrow-right" src="<?= base_url("assets/img/btn-next-hover@2x.png") ?>">
                       </ul>
                   </div>
 
@@ -177,11 +175,11 @@
 
       <div class=" coach col-md-6 pr-0 pl-0 text-center">
         <div class="titulos_corazon" id="tu-coach">Tu coach</div>
-        <span class="barbara-text justify-content-center">Barbara De La Rosa, </span> <span class="barbara-text3"> experta en relaciones afectivas, generacion de autoconfianza y valoracion. </span><br><br>
+        <span class="barbara-text justify-content-center">Bárbara de la Rosa,</span> <span class="barbara-text3"> experta en relaciones afectivas, generación de autoconfianza y valoración. </span><br><br>
         <hr>
         <br>
-        <span class="barbara-text2 justify-content-center">Como especialista en neurociencia y programacion neurolinguistica he disenado un metodo para ayudar a sanar muchisimos corazones y devolver la confianza a miles de personas alrededor del mundo.
-          Sana tu corazon, vuelve a amar y vive feliz.
+        <span class="barbara-text2 justify-content-center">Como especialista en neurociencia y programación neurolingüística he diseñado un método para ayudar a sanar muchísimos corazones y devolver la confianza a miles de personas alrededor del mundo.
+Sana tu corazón, vuelve a amar y vive feliz.
         </span><br><br>
         <a class="btn alltrainings "href="#">Listo para entrenar</a>
 
@@ -256,13 +254,13 @@
                       <div class=" card-gradient1 centered mr-2 pr-2">
                       <img class="phone-image"  src="<?= base_url("assets/img/img-app.png") ?> "></div>
                        
-                          <div class="col-md-12 titulo-descarga"> Descarga el app 
+                          <div class="col-md-12 titulo-descarga"> Descarga el app.
                               <div class="col-md-9 col-sm-12 pl-0">
-                                <div class="titulos_2cards">Siente al lado tuyo a tu coach del corazon, quien te dara todos los poderosos tips para lograr tu objetivo.</div>
+                                <div class="titulos_2cards">Siente a lado tuyo a tu Coach del Corazón, quién te dará todos los poderosos tips para lograr tu objetivo.</div>
                                 </div>
                                       <div class="col-md-3"></div>
                                             <div class="col-md-9 col-sm-12 pl-0">
-                                            <p class=" mb-0 p-text">Ademas enterate de eventos y las ultimas novedades.</p> </div>
+                                            <p class=" mb-0 p-text">Además entérate de eventos y las últimas novedades.</p> </div>
                                       <div class="col-md-3"></div>
                                       <div class="row row-movil-icons">
                                               <div class="col-4">
@@ -282,18 +280,18 @@
             <img class="phone-image"  src="<?= base_url("assets/img/img-login.png") ?>"></div>
 
 
-            <div class="col-md-12 titulo-descarga"> Estas listo para iniciar tu entrenamiento?
+            <div class="col-md-12 titulo-descarga"> ¿Estás listo para iniciar tu entrenamiento?
               
             <div class="col-md-9 col-sm-12 pl-0">
-              <p class="h3-size titulos_2cards ">Ya compraste algun entretenimiento y no sabes como iniciar sesion?,  haz click aqui para poder ver todo tu contenido.</p>
+              <p class="h3-size titulos_2cards ">Ya compraste algún entrenamiento y no sabes como inciar sesión, haz clic aquí para poder ver todo tu contenido. </p>
             </div>
             <div class="col-md-3"></div>
             <div class="col-md-9 col-sm-12 gradient2-text pl-0">
-              <p class="p-text ">Que esperas, el cambio de tu vida esta al alcance de tus manos</p>
+              <p class="p-text ">Qué esperas, el cambio de tu vida está al alcance de tus manos.</p>
             
 
 
-              <a class="btn btn-home-session rounded-0 " href="<?= base_url("home/login") ?>" > <button  class="btn btn-home-session " id="btn-home-session" style="max-width: 50%">Iniciar sesion </button></a>
+              <a class="btn btn-home-session rounded-0 " href="<?= base_url("home/login") ?>" > <button  class="btn btn-home-session " id="btn-home-session" style="max-width: 50%">Iniciar sesión </button></a>
               <div class="col-md-3"></div>
            
               
@@ -328,7 +326,7 @@
             <img src="<?= base_url("assets/img/Asset15.png") ?>" class="card-img-top border-0" alt="...">
             <div class="card-body">
               
-              <h5 class="card-title babara-text"> El primer paso para la vida que siempre sonaste</h5>
+              <h5 class="card-title babara-text"> El primer paso para la vida que siempre soñaste</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
             </div>
@@ -401,7 +399,7 @@
       <div class="col-md-4"></div>
       <div class="col-md-4 Entrenamientos text-danger">  
     
-         <div class="titulos_corazon text-center">Galeria</div>
+         <div class="titulos_corazon text-center">Galería</div>
       </div>
       <div class="col-md-4"></div>
     </div>

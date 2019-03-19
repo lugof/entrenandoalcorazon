@@ -134,7 +134,7 @@ table {
 }
 #btn-tomarnota{
     margin-top:5%;
-    padding:1%
+
 }
 .btn-video-gradient1{
     background-image: linear-gradient(to right,  #9ed800 ,#e5e51a);
@@ -175,6 +175,10 @@ table {
 
 
                                             /* Mis entrenamientos */
+
+
+
+
 
 .train-img1{
 width:189px;
@@ -631,6 +635,9 @@ height:150px;
 
 /* Infored-infowhite */
 
+
+
+
 .country-bold{
 
     font-family: 'SourceSansPro-Bold';
@@ -839,19 +846,19 @@ body{
 
 .barbara-text{
     font-family: 'Merriweather-BoldItalic';
-    font-size: 21pt;
+    font-size: 21px;
     color:#232323
 }
 .barbara-text3{
     font-family: 'Merriweather-LightItalic';
-    font-size: 21pt;
+    font-size: 21px;
     color:#232323;
     margin-bottom:5%
 }
 .barbara-text2{
     color:#898989;
     font-family: 'SourceSansPro-Regular';
-    font-size: 15pt;
+    font-size: 15px;
     margin-top:20%
 }
 
@@ -940,12 +947,33 @@ body{
     width:100%;
     margin-top:9%
 }
-
-.opt1, .opt2, .opt3, .opt4{
+.fa-arrow-left, .fa-arrow-right{
+height:20px;
+width:35px;
+margin-left:30%
+}
+.bar{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0
+}
+.upper-opt{
     font-family: 'SourceSansPro-Regular';
     font-size: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0
 
 }
+.copyright{
+    margin-left:100%;
+    color: #143282;
+    margin-left:30%;
+    margin-right:30%
+}
+
 
 
 .btn-entrenar, .alltrainings{
@@ -1079,6 +1107,16 @@ body{
     color: #FFFFFF;
     text-align: center;
     padding-top: 2%;
+}
+.v-tomarnota-btn{
+    width: 70%;
+    height: 38px;
+    background-color: #FB0D1B;
+    font-family: 'SourceSansPro-Bold';
+    font-size: 12pt;
+    color: #FFFFFF;
+    text-align: center;
+  
 }
 
 .entrenando_inp{
@@ -1301,6 +1339,7 @@ height:550px;
 
 .carousel-img{
     height: calc(100vh - 80px);
+    max-height:90%;
     width:100%
 }
 .row-carousel{

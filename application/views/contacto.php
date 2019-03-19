@@ -10,9 +10,9 @@
 
          <a class="opt " href="#">  Blog   |</a>
 
-         <a class="opt " href="#">  Galeria   |</a>
+         <a class="opt " href="#">  Galería  |</a>
 
-         <a class="opt" href="#">  Siguenos   </a>
+         <a class="opt" href="#">  Síguenos  </a>
 
        </div>
      </div>
@@ -78,7 +78,7 @@
         
         <div class="titulo-infored">Contacto</div><br><br>
         
-        Quiero escucharte, comprenderte y guiarte. Puedes recuperar la fe en el amor. Decidete hoy.<br><br>
+        Quiero escucharte, comprenderte y guiarte. Puedes recuperar la fe en el amor. Decide hoy.<br><br>
 
           <div class="row pt-3 ">
         <div class="col-md-2 col-sm-2 col-lg-2 col-2">
@@ -100,7 +100,7 @@
         </div>
 <div class="col-md-1 col-sm-1 col-lg-1 pl-0 col-1"></div>
     
-       <div class="col-md-3 col-sm-3 col-lg-3 mr-0 pr-0 pl-0 col-3"> <p class="country-bold "> Mexico </p> </div>   <p class="col-lg-5 col-5 col-md-5 col-sm-5 col-5 pl-0 pr-0">(81) 8647 1723</p> 
+       <div class="col-md-3 col-sm-3 col-lg-3 mr-0 pr-0 pl-0 col-3"> <p class="country-bold "> México</p> </div>   <p class="col-lg-5 col-5 col-md-5 col-sm-5 col-5 pl-0 pr-0">(81) 8647 1723</p> 
 
          <div class="col-md-2 col-sm-2 col-lg-2 col-2"></div>
          <div class="col-md-1 col- sm-1 col-lg-1 col-1 pl-0"></div>
@@ -125,7 +125,7 @@
 </div>
         <div class="col-md-1 col-sm-1 col-lg-1 col-1"></div>
         <div class="col-md-8 col-sm-8 col-lg-8 col-8 pl-0">
-                  <p> Blvd. Antonio L. Rodriguez 2100 Piso 11, Edificio B.H. Business Hub, Col. Santa Maria, Mty, N.L. Mx. 64650</p>
+                  <p> Blvd. Antonio L. Rodríguez 2100 Piso 11, Edificio B.H. Business Hub, Colonia Santa María, Mty, N.L. Mx. 64650</p>
 </div>
 <div class="col-md-1 col-sm-1 col-lg-1 col-1"></div>
 </div>
@@ -142,20 +142,20 @@
     <div class="infowhite  border-0">
     <div class=" card-text card-infowhite ">
                   <div class="titulo-contacto-form">Formulario</div> <br> <br>
-       <p class="infowhite-text">  Envianos un mensaje y nos pondremos en contacto contigo con la mayor brevedad posible.
+       <p class="infowhite-text">  Envíanos tu mensaje y nos pondremos en contacto contigo con la mayor brevedad posible.
     
                   <div class="input-group mt-4 mb-3">
                   <input type="text" class="form-control form-contacto" placeholder="Tu Nombre" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                   <div class="input-group mb-3">
-                  <input type="text" class="form-control form-contacto" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control form-contacto" placeholder="Correo electrónico" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                   <div class="input-group mb-3">
                   <input type="text" class="form-control form-contacto" placeholder="Asunto" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
 
               <div class="form-group">
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje"  rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje..."  rows="3"></textarea>
              </div>
 
 

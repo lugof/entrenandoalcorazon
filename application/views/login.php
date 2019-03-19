@@ -8,9 +8,9 @@
 
          <a class="opt " href="#">  Blog   |</a>
 
-         <a class="opt " href="#">  Galeria   |</a>
+         <a class="opt " href="#">    Galería    |</a>
 
-         <a class="opt" href="#">  Siguenos   </a>
+         <a class="opt" href="#">  Síguenos   </a>
 
        </div>
      </div>
@@ -76,18 +76,18 @@
     <div class=" card-text card-infowhite ">
 
     
-                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Iniciar sesion</div> <br> <br>
+                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Iniciar sesión</div> <br> <br>
 
     
                   <div class="input-group mt-2 mb-3">
-                  <input type="text" class="form-control form-contacto" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control form-contacto" placeholder="Correo electrónico" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                   <div class="input-group mb-3">
-                  <input type="text" class="form-control form-contacto" placeholder="Contrasena" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control form-contacto" placeholder="Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                         <div class="row mb-3 mt-2">
                           
-                          <a href="<?= base_url("home/passwordRecovery") ?>" class="col-sm-12 text-center text-contrasena-contacto"> <u>Olvidaste tu contrasena? </u></a>
+                          <a href="<?= base_url("home/passwordRecovery") ?>" class="col-sm-12 text-center text-contrasena-contacto"> <u>¿Olvidaste tu contraseña? </u></a>
                          
                         </div>
 
@@ -102,7 +102,7 @@
                   <div class="row mb-3 mt-2">
              
                     <div class="col-3 mt-3"><hr></div>
-                  <a href="<?= base_url("home/signup") ?>" class="col-sm-6 text-center text-nuevo-contacto "> <u> Eres nuevo? </u></a>
+                  <a href="<?= base_url("home/signup") ?>" class="col-sm-6 text-center text-nuevo-contacto "> <u> ¿Eres nuevo? </u></a>
                   <div class="col-3 mt-3"><hr></div>
                 </div>
              

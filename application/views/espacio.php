@@ -8,9 +8,9 @@
 
          <a class="opt " href="#">  Blog   |</a>
 
-         <a class="opt " href="#">  Galeria   |</a>
+         <a class="opt " href="#">  Galería  |</a>
 
-         <a class="opt" href="#">  Siguenos   </a>
+         <a class="opt" href="#">  Síguenos  </a>
 
        </div>
      </div>
@@ -88,7 +88,7 @@
   <a href="<?= base_url("home/misentrenamientos") ?>" class="user-opt"><li>Mis entrenamientos</li></a>
   <a href="#" class="user-opt mb-3" id="user-opt-notes" ><li>Mis notas</li></a>
   <hr>
-  <a href="#" class="user-opt "  id="user-opt-logout"> <li>Cerrar sesion</li></a>
+  <a href="#" class="user-opt "  id="user-opt-logout"> <li> Cerrar sesión</li></a>
 </ul>
 
 
@@ -99,9 +99,9 @@
 
 <div class="col-8 contenedor-espacio">
 <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Bienvenido a tu nuevo espacio</div> <br> <br>
-<div class="row mb-3 mt-2 espacio-text text-center">Hemos renovado completamente este nuevo espacio para adaptarlo a ti y que en el encuentres todo lo relativo a tus entrenamientos, la agenda de eventos, notas, Descubrelo!
+<div class="row mb-3 mt-2 espacio-text text-center">Hemos renovado completamente este espacio para adaptarlo a ti y que en él encuentres todo lo relativo a tus entrenamientos, la agenda de eventos, notas. ¡Descúbrelo!
 </div>
-<div class="black-title-espacio"> Listo para tu proximo entrenamiento?
+<div class="black-title-espacio"> ¿Listo para tu próximo entrenamiento?
 
 <br>
 <br>
@@ -116,26 +116,26 @@
                 <img src="<?= base_url("assets/img/cursos-2.png") ?>" class="image-carousel d-flex col-12 col-md-6 col-sm-12 col-lg-6" id="image-carousel2" alt="carousel2" > 
               
 
-               <div class="whitesquare-carousel  col-12 col-md-6 col-sm-12 col-lg-6 d-flex"> Dia 1 de 30   <div class="whitesquare-text d-flex"> DETOX EMOCIONAL SUPERANDO AL EX </div>   </div>
+               <div class="whitesquare-carousel  col-12 col-md-6 col-sm-12 col-lg-6 d-flex"> Día 1 de 30  <div class="whitesquare-text d-flex"> DETOX EMOCIONAL SUPERANDO AL EX </div>   </div>
   </div>
 
             <div class="row d-flex">
 
              <img src="<?= base_url("assets/img/cursos-3.png") ?>" class=" image-carousel col-12 col-md-6 col-sm-12 col-lg-6 d-flex" alt="carousel2" >
-              <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
+              <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6"> Día  1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
             </div>
             
 
             <div class="row d-flex">
 
               <img src="<?= base_url("assets/img/cursos-1.png") ?>" class=" image-carousel col-12 col-md-6 col-sm-12 col-lg-6 d-flex" alt="carousel2" >
-              <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6 d-flex"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
+              <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6 d-flex"> Día 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
               </div>
 
               <div class="row d-flex">
 
                   <img src="<?= base_url("assets/img/cursos-4.png") ?>" class=" image-carousel col-12 col-md-6 col-sm-12 col-lg-6 d-flex" alt="carousel2" >
-                  <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6"> Dia 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
+                  <div class="whitesquare-carousel col-12 col-sm-12 col-md-6 col-lg-6"> Día 1 de 30   <div class="whitesquare-text"> DETOX + PNL </div> </div> 
                   </div>
 
 
@@ -192,8 +192,8 @@
 
 
 <div class="col-1"></div>
-</div>
-</div>
+
+
 
 
 

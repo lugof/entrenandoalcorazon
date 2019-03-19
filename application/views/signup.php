@@ -8,9 +8,9 @@
 
          <a class="opt " href="#">  Blog   |</a>
 
-         <a class="opt " href="#">  Galeria   |</a>
+         <a class="opt " href="#">  Galería  |</a>
 
-         <a class="opt" href="#">  Siguenos   </a>
+         <a class="opt" href="#">  Síguenos   </a>
 
        </div>
      </div>
@@ -83,21 +83,21 @@
                   <input type="text" class="form-control form-contacto" placeholder="Tu nombre" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                   <div class="input-group mb-3">
-                  <input type="text" class="form-control form-contacto" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control form-contacto" placeholder="Correo electrónico" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                   <div class="input-group mb-3">
-                  <input type="text" class="form-control form-contacto" placeholder="Contrasena" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control form-contacto" placeholder="Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
 
 
 
                         <div class="row mb-3 mt-2">
                           
-                          <a href="#" class="col-sm-12 text-center text-contrasena-signup"> La contrasena debe tener al menos seis caracteres</a>
+                          <a href="#" class="col-sm-12 text-center text-contrasena-signup"> La contraseña debe de contener al menos seis caracteres.</a>
                          
                         </div>
                         <div class="input-group mb-3">
-                  <input type="text" class="form-control form-contacto" placeholder="Vuelve a escribir la contrasena" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control form-contacto" placeholder="Vuelve a escribir la contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
 
                   <a href="#" class="btn btn-login signup-button rounded-0 col-sm-12">Crear tu cuenta</a>
@@ -109,16 +109,14 @@
 
                   <div class="row mb-3 mt-2">
              
-                  <a href="#" class="col-sm-12 text-center text-nuevo-contacto"> Al crear una cuenta aceptas el <u>Aviso de privacidad</u> de Entrenando al corazon</a>
+                  <a href="#" class="col-sm-12 text-center text-nuevo-contacto"> Al crear una cuenta aceptas el <u>Aviso de privacidad</u> de Entrenando al Corazón</a>
             
                 </div>
                
                 
-                  
-               
-                
                 </div>
-                <a href="<?= base_url("home/login") ?>"  class="btn iniciar-signup-button rounded-0 mb-0 mt-2 col-sm-12 text-center" onclick="submit_login();">Ya tienes una cuenta?  <u>Iniciar sesión</u></a>
+
+                <a href="<?= base_url("home/login") ?>"  class="btn iniciar-signup-button rounded-0 mb-0 mt-2 col-sm-12 text-center" onclick="submit_login();">¿Ya tienes una cuenta?  <u>Iniciar sesión</u></a>
                   <?php if(isset($datos_incorrectos)):?>
 
                   <div style="text-align: center; color: #FB0D1B; font-family: 'SourceSansPro-Bold'; font-size: 20px; margin-top: 20px; width: 100%;" ><?= $datos_incorrectos ?></div>

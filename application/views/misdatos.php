@@ -8,9 +8,9 @@
 
          <a class="opt " href="#">  Blog   |</a>
 
-         <a class="opt " href="#">  Galeria   |</a>
+         <a class="opt " href="#">  Galería   |</a>
 
-         <a class="opt" href="#">  Siguenos   </a>
+         <a class="opt" href="#">  Síguenos  </a>
 
        </div>
      </div>
@@ -99,7 +99,7 @@
 
 <div class="col-6 contenedor-misdatos">
 <div class="titulo-contacto-form col-12 pl-0 pr-0 ">Mis Datos</div> <br> <br>
-  <div class="row mb-3 mt-2 misdatos-text text-center">Modifica tus datos personales a continuacion para que tu cuenta este actualizada.
+  <div class="row mb-3 mt-2 misdatos-text text-center">Modifica tus datos personales a continuación para que tu cuenta esté actualizada.
   </div>
     <div class="row row1-datos">
 
@@ -124,10 +124,10 @@
 
           <div class="row inputs-row">
               <div class="col-6">
-            <input  class="datos-input col-6" placeholder=" Correo electronico"  type="text" name="">
+            <input  class="datos-input col-6" placeholder="Correo electrónico"  type="text" name="">
               </div>
               <div class="col-6">
-            <input  class="datos-input col-6" placeholder=" Telefono"  type="text" name=""><br><br>
+            <input  class="datos-input col-6" placeholder=" Teléfono"  type="text" name=""><br><br>
               </div> </div>
 
               <div class="row inputs-row">
@@ -261,14 +261,14 @@
 
               <div class="row inputs-row mt-3">
             <div class="col-6 ">
-            <input  class="datos-input2 col-6" id="datosinput1" placeholder=" Pais"  type="text" name="">
+            <input  class="datos-input2 col-6" id="datosinput1" placeholder=" País"  type="text" name="">
            
 
             <input  class="datos-input2 col-6" id="datosinput2" placeholder="Estado"  type="text" name="">
               </div>
               <div class="col-6"> 
               <input  class="datos-input2 col-6" id="datosinput1" placeholder="Municipio"  type="text" name="">
-              <input  class="datos-input2 col-6" id="datosinput2" placeholder="Codigo Postal"  type="text" name="">
+              <input  class="datos-input2 col-6" id="datosinput2" placeholder="Código Postal"  type="text" name="">
               </div>
 
 
@@ -277,16 +277,16 @@
 </div>
 <div class="row inputs-row">
               <div class="col-6">
-            <input  class="datos-input col-6" placeholder="Direccion"  type="text" name="">
+            <input  class="datos-input col-6" placeholder="Dirección"  type="text" name="">
               </div>
 </div>
 <div class="row inputs-row">
               <div class="col-6">
-            <input  class="datos-input col-6" placeholder="Contrasena"  type="text" name="">
+            <input  class="datos-input col-6" placeholder="Contraseña"  type="text" name="">
               </div>
               <div class="col-3">
               <button class="btn misdatos-upload rounded-0 col-2" type="input" href="#">
-                    Cambiar contrasena
+              Cambiar contraseña
               </button> 
             </div>
 

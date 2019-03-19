@@ -8,9 +8,9 @@
 
          <a class="opt " href="#">  Blog   |</a>
 
-         <a class="opt " href="#">  Galeria   |</a>
+         <a class="opt " href="#">  Galería  |</a>
 
-         <a class="opt" href="#">  Siguenos   </a>
+         <a class="opt" href="#">  Síguenos   </a>
 
        </div>
      </div>
@@ -76,11 +76,11 @@
     <div class=" card-text card-infowhite ">
 
     
-                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Recuperar contrasena</div> <br> <br>
+                  <div class="titulo-contacto-form col-12 pl-0 pr-0 text-center">Recuperar contraseña</div> <br> <br>
 
     
                  
-                        <div class="row mb-3 mt-2 password-text text-center">Para tu seguridad necesitamos verificar tu identidad. Hemos enviado tu contrasena a tu correo electronico
+                        <div class="row mb-3 mt-2 password-text text-center">Para tu seguridad, necesitamos verificar tu identidad. Hemos enviado tu contraseña a tu correo electrónico 
                           
                           <a href="#" class="col-sm-12 text-center text-contrasena-recovery"> <u> info@entrenandoalcorazon.com</u> </a>
                          
@@ -96,7 +96,7 @@
 
                   <div class="row mb-3 mt-2">
                   <div class="col-3 mt-2"><hr></div>
-                  <a href="<?= base_url("home/signup") ?>"  class="col-sm-6 text-center text-nuevo-contacto"> <u> Eres nuevo? </u></a>
+                  <a href="<?= base_url("home/signup") ?>"  class="col-sm-6 text-center text-nuevo-contacto"> <u> ¿Eres nuevo?</u></a>
                   <div class="col-3 mt-2"><hr></div>
                 </div>
              

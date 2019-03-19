@@ -14,7 +14,8 @@
     </div>
     <hr>
   </div>
-    <div class="col-1"></div>
+
+    <div class="col-2"></div>
 
   <div class="col-md-2 col-sm-12 columna_footer" id="col1footer">
 
@@ -37,6 +38,7 @@
 
    <span class="rojo"> +52 (81) 8647 1723 
     info@entrenandoalcorazon.com</span>
+  
   </div>
 
         <div class="col-md-3 col-sm-12 columna_footer ">
@@ -51,7 +53,12 @@
               </button>
         </div>
 
-        <div class="col-1"></div>
+        <div class="col-2"></div>
+      
+        <div class="col-4"></div>
+        <p class="col-4 text-center copyright"> Copyright © 2018, Todos los derechos reservados.</p>
+        <div class="col-4"></div>
+       
   </div>
 
 </div>
