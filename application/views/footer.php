@@ -16,7 +16,7 @@
   </div>
     <div class="col-1"></div>
 
-  <div class="col-md-3 col-sm-12 columna_footer" id="col1footer">
+  <div class="col-md-2 col-sm-12 columna_footer" id="col1footer">
 
    <p class="footer-title">Páginas</p> <br>
   <br>
@@ -30,7 +30,7 @@
     
   </div>
 
-  <div class="col-md-4 col-sm-12 columna_footer">
+  <div class="col-md-3 col-sm-12 columna_footer">
     <p class="footer-title">Contacto</p>
   <br>
     Blvd. Antonio L. Rodríguez 2100,Piso 11, Edificio B.H. Business Hub, Colonia Santa María, Mty, N.L. Mx. 64650 <br><br>
@@ -39,17 +39,19 @@
     info@entrenandoalcorazon.com</span>
   </div>
 
-  <div class="col-md-4 col-sm-12 columna_footer ">
-   <p class="footer-title">Newsletter</p> 
-  <br>
-    Regístrate para recibir noticias e información de los nuevos entrenamientos.<br><br>
+        <div class="col-md-3 col-sm-12 columna_footer ">
+            <p class="footer-title">Newsletter</p> 
+              <br>
+                Regístrate para recibir noticias e información de los nuevos entrenamientos.<br><br>
 
 
-    <input  class="entrenando_inp " placeholder="  Correo electronico"  type="text" name=""><br><br>
-    <button class="btn entrenando_btn" type="input" href="#">
-      SUSCRIBIR
-</button>
-  </div>
+                <input  class="entrenando_inp " placeholder="  Correo electronico"  type="text" name=""><br><br>
+                <button class="btn entrenando_btn rounded-0" type="input" href="#">
+                  Suscribir
+              </button>
+        </div>
+
+        <div class="col-1"></div>
   </div>
 
 </div>

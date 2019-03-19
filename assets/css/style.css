@@ -941,6 +941,13 @@ body{
     margin-top:9%
 }
 
+.opt1, .opt2, .opt3, .opt4{
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15px;
+
+}
+
+
 .btn-entrenar, .alltrainings{
     width: 160px;
     height: 38px;
@@ -1046,7 +1053,7 @@ body{
     color: #FFFFFF;
     padding: 1% 3%;
 }
-x
+
 .columna_footer h6{
     font-family: 'SourceSansPro-Bold';
     font-size: 12pt;
@@ -1064,7 +1071,7 @@ x
 }
 
 .entrenando_btn{
-    width: 160px;
+    width: 70%;
     height: 38px;
     background-color: #FB0D1B;
     font-family: 'SourceSansPro-Bold';
@@ -1075,7 +1082,7 @@ x
 }
 
 .entrenando_inp{
-    width: 241px;
+    width: 100%;
     height: 38px;
     border: none;
 }
@@ -1293,7 +1300,7 @@ height:550px;
 }
 
 .carousel-img{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     width:100%
 }
 .row-carousel{

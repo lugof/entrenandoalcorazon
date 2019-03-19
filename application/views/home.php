@@ -5,11 +5,11 @@
   <div class="row row-uppermenu">
        
        <div class="col-12 ">
-         <a class="opt1 text-white" href="#">  Agenda  |</a>
+         <a class="opt1 text-white" href="#">  Agenda  |   </a>
 
-         <a class="opt2 text-white" href="#">  Blog   |</a>
+         <a class="opt2 text-white" href="#">  Blog   |   </a>
 
-         <a class="opt3 text-white" href="#">  Galeria   |</a>
+         <a class="opt3 text-white" href="#">  Galeria   |   </a>
 
          <a class="opt4 text-white" href="#">  Siguenos   </a>
 
